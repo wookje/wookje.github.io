@@ -7,7 +7,7 @@ tags: [sigpl, sigpl-winter-school-2017, programming-language, proof, number-theo
 
 ---
 
-## SIGPL Winter School 2017 [01]
+## SIGPL Winter School 2017 1일차 정리
 
 **주어가 명시되지 않은 문장은 대부분 Coq가 그렇다는 의미로 받아들이면 대부분 알아들을 수 있을 것이다.**
 

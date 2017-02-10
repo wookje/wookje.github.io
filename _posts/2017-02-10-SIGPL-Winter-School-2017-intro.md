@@ -6,7 +6,7 @@ date: 2017-02-10 23:39
 tags: [sigpl, sigpl-winter-school-2017, programming-language, proof, number-theory, coq, math]
 
 ---
-## SIGPL Winter School 2017 [intro]
+## SIGPL Winter School 2017
 
 [SIGPL Winter School 2017](http://sigpl.or.kr/school/2017w/)에 참여하여 보고, 듣고, 배우고, 느낀점을 정리한 글입니다.
 
