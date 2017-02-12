@@ -15,9 +15,11 @@ tags: [boj, mugcup]
 
 ### A. 준오는 심술쟁이!!
 
+출제자: [behind06](https://www.acmicpc.net/user/behind06) (나)  
+
 원래 계획에 없던 문제인데, 대회 업로드 실수로 하루 연기되는 바람에 이벤트성으로 뚝딱 만들어낸 문제다. (정답률 16%로 제일 낮아서 뿌듯했다!)  
 
-풀이:
+출제자의 풀이:
 ```
 문제를 읽어보면 알겠지만 전형적인 다이나믹 문제이다.
 
@@ -34,7 +36,7 @@ tags: [boj, mugcup]
 나머지 연산 과정에서 음수가 나올 수 있으니 주의한다.  
 ```
 
-코드:
+출제자의 코드:
 
 ```cpp
 #include <iostream>
@@ -104,6 +106,8 @@ int main()
 
 ### B. 배스킨라빈스 31
 
+출제자: [proqk](https://www.acmicpc.net/user/proqk)  
+
 문제 조건과 예제가 잘못 되었던 문제다 (지금은 수정되었다)  
 
 출제자의 풀이:
@@ -140,6 +144,8 @@ int main() {
 ```
 
 ### C. 자원 캐기
+
+출제자: [leehun456](https://www.acmicpc.net/user/leehun456)  
 
 탐색 문제이다! 아니 근데 왜 탐색 문제라고 풀이에 써놓고 다이나믹으로 짰지?
 
@@ -183,6 +189,8 @@ int main()
 ```
 
 ### D. 소수마을
+
+출제자: [wjdtmddnr24](https://www.acmicpc.net/user/wjdtmddnr24)  
 
 분류: 백트래킹, 최단경로 라고 출제자가 써두었다.
 
@@ -281,6 +289,8 @@ int main(){
 
 ### E. 우물
 
+출제자: [skyoun97](https://www.acmicpc.net/user/skyoun97)  
+
 ~~출제자가 소스 잘못 짜놓고 학원으로 도망가서 킹갓 tonyjjw 님이 데이터를 다시 만들었다.~~
 
 출제자의 풀이:
@@ -365,6 +375,100 @@ int main(){
 	return 0;
 } 
 ```
+
+### F. 한조 대기 중
+
+출제자: [behind06](https://www.acmicpc.net/user/behind06)
+
+출제자의 풀이:
+
+```
+문제를 잘 읽어보면, 트롤픽을 최대한 많이 고르는 이분매칭 문제임을 알 수 있다.
+
+이분매칭을 알고 있다면 크게 어렵지 않은 문제이다!
+```
+
+(출제자는 대충 짜고 자려고 함수 복붙해서 2개씩 만들었다) ~~도대체 출제자가 누구야? 극혐이네~~
+
+```cpp
+#include <stdio.h>
+#include <vector>
+#include <memory.h>
+
+using namespace std;
+
+vector<int> A[501], B[501];
+int visitedA[501], visitedB[501];
+bool chkA[501], chkB[501];
+
+bool gogoA(int a)
+{
+	for (auto b : A[a])
+	{
+		if (chkA[b]) continue;
+		chkA[b] = true;
+		if (visitedA[b] == -1 || gogoA(visitedA[b]))
+		{
+			visitedA[b] = a;
+			return true;
+		}
+	}
+	return false;
+}
+
+bool gogoB(int a)
+{
+	for (auto b : B[a])
+	{
+		if (chkB[b]) continue;
+		chkB[b] = true;
+		if (visitedB[b] == -1 || gogoB(visitedB[b]))
+		{
+			visitedB[b] = a;
+			return true;
+		}
+	}
+	return false;
+}
+
+int main()
+{
+	int N, M, K1, K2;
+
+	scanf("%d %d %d %d", &N, &M, &K1, &K2);
+	for (int i = 0; i < K1; ++i)
+	{
+		int a, b;
+		scanf("%d %d", &a, &b); --a, --b;
+		A[a].push_back(b);
+	}
+	for (int i = 0; i < K2; ++i)
+	{
+		int a, b;
+		scanf("%d %d", &a, &b); --a, --b;
+		B[a].push_back(b);
+	}
+
+	int res1 = 0, res2 = 0;
+	memset(visitedA, -1, sizeof(visitedA));
+	memset(visitedB, -1, sizeof(visitedB));
+	for (int i = 0; i < N; ++i)
+	{
+		memset(chkA, 0, sizeof(chkA));
+		memset(chkB, 0, sizeof(chkB));
+		if (gogoA(i)) ++res1;
+		if (gogoB(i)) ++res2;
+	}
+
+	if (res1 < res2) printf("네 다음 힐딱이");
+	else printf("그만 알아보자");
+
+	return 0;
+}
+```
+
+
+
 
 ### G. 놀이기구1
 
