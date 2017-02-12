@@ -1,13 +1,11 @@
 ---
 layout: post
-title: 'SIGPL Winter School 2017 3일차 정리'
+title: '[BOJ] 머그컵 풀이 및 소스코드'
 author: wookje.kwon
 date: 2017-02-1 18:12
 tags: [boj, mugcup]
 
 ---
-
-## [BOJ] 머그컵 풀이 및 소스코드
 
 (문제는 >[여기](https://www.acmicpc.net/contest/view/213)<에서 볼 수 있다)  
 
