@@ -2,6 +2,7 @@
 layout: post
 title: '[BOJ] 머그컵 풀이 및 소스코드'
 author: wookje.kwon
+comments: true
 date: 2017-02-12 18:22
 tags: [boj, mugcup]
 

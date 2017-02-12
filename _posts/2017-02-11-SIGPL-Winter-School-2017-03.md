@@ -2,6 +2,7 @@
 layout: post
 title: 'SIGPL Winter School 2017 3일차 정리'
 author: wookje.kwon
+comments: true
 date: 2017-02-11 11:56
 tags: [sigpl, sigpl-winter-school-2017, programming-language, proof, number-theory, coq, math]
 
