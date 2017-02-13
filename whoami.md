@@ -4,6 +4,7 @@ title: whoami
 image: /files/covers/openapi.png
 permalink: /whoami/
 sitemap: yes
+comments: true
 excerpt: 욱제를 소개합니다.
 tags: []
 ---
@@ -14,6 +15,7 @@ tags: []
 * 핸들: wookje(요즘 거), behind06(쓰던 거), aweee0(옛날 거)
 * [https://github.com/wookje](https://github.com/wookje)
 * [https://www.acmicpc.net/user/behind06](https://www.acmicpc.net/user/behind06)
+* [https://www.acmicpc.net/user/wookje](https://www.acmicpc.net/user/wookje)
 
 ---
 
