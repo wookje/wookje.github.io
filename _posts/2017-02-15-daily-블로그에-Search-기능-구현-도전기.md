@@ -1,13 +1,13 @@
 ---
 layout: post
-title: '[일상] 블로그에 Search 기능 구현 도전기'
+title: '[일상] 웹알못 블로거의 신나는 웹 코딩'
 author: wookje.kwon
 comments: true
 date: 2017-02-15 20:00
 tags: [daily, develop, web]
 ---
 
-약 2시간 정도 삽질했는데, 결론부터 말하자면 구현은 **실패** 했다.  
+약 2시간 정도 삽질했는데, 결론부터 말하자면 구현은 **실패** 했다. 아이 신난다  
 
 사실 이 블로그가 [카카오 테크 블로그](http://tech.kakao.com/)에서 따온 블로그인데,  
 원래 검색 기능은 이렇게 구현되어 있었다:  
