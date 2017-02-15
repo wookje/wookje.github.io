@@ -1,4 +1,4 @@
-----
+---
 layout: post
 title: '[일상] 블로그에 Search 기능 구현 도전기'
 author: wookje.kwon
@@ -6,7 +6,7 @@ comments: true
 date: 2017-02-15 20:00
 tags: [daily, develop, web]
 
-----
+---
 
 약 2시간 정도 삽질했는데, 결론부터 말하자면 구현은 **실패** 했다.  
 
