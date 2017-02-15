@@ -23,7 +23,7 @@ layout: null
     {% if page.date %}
     <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
     {% endif %}
-    <changefreq>{{ sitemap.freq | default: 'monthly' }}</changefreq>
+    <changefreq>{{ sitemap.freq | default: 'hourly' }}</changefreq>
     <priority>{{ sitemap.priority | default: '1.0' }}</priority>
   </url>
   {% endif %}
@@ -31,14 +31,14 @@ layout: null
   {% for author in site.authors %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}/authors/{{ author.name }}</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   {% endfor %}
   {% for tag in site.tags %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}/tags/{{ tag.name }}</loc>
-    <changefreq>monthly</changefreq>
+    <changefreq>hourly</changefreq>
     <priority>0.8</priority>
   </url>
   {% endfor %}
