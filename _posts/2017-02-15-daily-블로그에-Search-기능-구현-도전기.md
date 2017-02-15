@@ -42,14 +42,14 @@ search.md도 만들고
 그렇게 똑같은 파일 수십번씩 확인하고 별짓 다 해봤는데  
 결국 범인은 sitmap.xml 이놈이더라...
 
-```
-  {% for tag in site.tags %}
+```xml
+  <!--for tag in site.tags-->
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}/tags/{{ tag.name }}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  {% endfor %}
+  <!--endfor-->
 ```
 
 삽질 할 거 다 하고나서 깨달은 사실인데, 저런 식으로 사이트맵을 직접 만들어야 하더라.  
@@ -62,7 +62,6 @@ search.md도 만들고
 결국 다시 rebase해서  
 
 ```js
-<!--
 $('#search').submit(function (e) {
 	e.preventDefault();
     var q = $('#searchQueryEdit').val();
@@ -70,7 +69,6 @@ $('#search').submit(function (e) {
           + encodeURIComponent(q + ' site:wookje.github.com');
     window.open(url, '', '_blank');
 });
--->
 ```
 
 검색엔진만 google로 바뀌고 원래대로 돌아왔다.  
