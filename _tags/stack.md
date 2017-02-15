@@ -1,4 +1,4 @@
 ---
 name: stack
-title: 스택
+title: '스택'
 ---

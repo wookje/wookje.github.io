@@ -1,4 +1,4 @@
 ---
 name: queue
-title: 큐
+title: '큐'
 ---
