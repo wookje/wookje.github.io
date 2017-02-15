@@ -39,7 +39,8 @@
         $('#search').submit(function (e) {
             e.preventDefault();
             var q = $('#searchQueryEdit').val();
-            var url = 'http://search.daum.net/search?q=' + encodeURIComponent(q + ' site:tech.kakao.com');
+            var url = 'https://www.google.co.kr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q='
+                        + encodeURIComponent(q + ' site:wookje.github.com');
             window.open(url, '', '_blank');
         });
 
