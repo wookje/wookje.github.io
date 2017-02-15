@@ -1,9 +1,9 @@
 ----
 layout: post
-title: '[일상] 블로그에 search 구현해보기'
+title: '[일상] Search 기능 구현 도전기'
 author: wookje.kwon
 comments: true
-date: 2017-02-15 19:31
+date: 2017-02-15 20:00
 tags: [daily, develop, web]
 
 ----
@@ -28,11 +28,54 @@ $('#search').submit(function (e) {
 
 웹은 몰랐지만 다른 페이지(tags, author)가 구현된 걸 보고 복붙해서 만들려고 했다. ~~sitemap을 미리 알았더라면..~~  
 
-<img width="600" height="400">![search00](/files/search00.png)</img>  
-
+<img src="![search00](/files/search00.png)" width="600" height="400"></img>  
 yaml 파일도 수정하고  
 
-<img width="600" height="400">![search00](/files/search01.png)</img>  
-
+<img src="![search01](/files/search01.png)"  width="600" height="400"></img>  
 search.md도 만들고  
 
+<img src="![search02](/files/search02.png)"  width="600" height="400"></img>  
+tag.html 배껴서 레이아웃도 만들었는데  
+
+<img src="![search03](/files/search03.png)"  width="600" height="400"></img>  
+으아아아아아아아아  
+
+그렇게 똑같은 파일 수십번씩 확인하고 별짓 다 해봤는데  
+결국 범인은 sitmap.xml 이놈이더라...
+
+```xml
+  {% for tag in site.tags %}
+  <url>
+    <loc>{{ site.url }}{{ site.baseurl }}/tags/{{ tag.name }}</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {% endfor %}
+```
+
+삽질 할 거 다 하고나서 깨달은 사실인데, 저런 식으로 사이트맵을 직접 만들어야 하더라.  
+
+나는 웹알못이라 php나 js를 써서 뭔가 새로운 걸 만들지는 못하고  
+있는 소스 배껴서 써먹어야하는데  
+있는 소스는 baseurl에다가 경로 붙이는(?) 형식으로 구현되어 있다 ㅠㅠ  
+그러려면 사이트맵이 미리 구성되어야 하는데, 무슨 단어로 검색할 줄 알고 사이트맵을 일일히 다 만들어 ㅠㅠ   
+
+결국 다시 rebase해서  
+
+```js
+$('#search').submit(function (e) {
+	e.preventDefault();
+	var q = $('#searchQueryEdit').val();
+	var url = 'https://www.google.co.kr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q='
+				+ encodeURIComponent(q + ' site:wookje.github.com');
+	window.open(url, '', '_blank');
+});
+```
+
+검색엔진만 google로 바뀌고 원래대로 돌아왔다.  
+정말 슬픈 일이다.  
+
+그리고 웹 짜면서 소스에 에러 있어도 돌아가는 거 보고 충격받았다.  
+정적 프로그램 분석에 길들여진 나로서는 웹을 도저히 이해할 수 없다 (...)  
+
+Search 기능 구현 도전기 - 끝
