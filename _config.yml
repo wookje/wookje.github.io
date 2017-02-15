@@ -2,7 +2,7 @@ title: Wookje blog
 email: wookje.happy@gmail.com
 description: |
   Hi
-  Forked template from [kakao](https://github.com/kakao/kakao.github.io) 
+  문제 검색은 여기서 (https://github.com/wookje/wookje.github.io/tree/master/_posts)
 
 baseurl: ''
 url: 'http://wookje.github.io'

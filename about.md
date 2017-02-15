@@ -7,7 +7,7 @@ sitemap: yes
 tags: [about]
 ---
 
-[wookje](https://wookje.github.com) 욱제의 블로그입니다.
+[wookje](https://wookje.github.com) 욱제 블로그
 
 Powered by [GitHub Pages](https://pages.github.com) and [Jekyll](https://jekyllrb.com).
 
