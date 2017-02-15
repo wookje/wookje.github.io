@@ -26,16 +26,16 @@ $('#search').submit(function (e) {
 
 웹은 몰랐지만 다른 페이지(tags, author)가 구현된 걸 보고 복붙해서 만들려고 했다. ~~sitemap을 미리 알았더라면..~~  
 
-<img src="/files/search00.png" width="640" height="360"></img>  
+<img src="/files/search00.png" width="640" height="360">  
 yaml 파일도 건들이고   
 
-<img src="/files/search01.png" width="640" height="360"></img>  
+<img src="/files/search01.png" width="640" height="360">  
 search.md도 만들고  
 
-<img src="/files/search02.png" width="640" height="360"></img>  
+<img src="/files/search02.png" width="640" height="360">  
 레이아웃도 만들었는데  
 
-<img src="/files/search03.png" width="450" height="360"></img>  
+<img src="/files/search03.png" width="450" height="360">  
 으아아아아아아아아  
 
 그렇게 똑같은 파일 수십번씩 확인하고 별짓 다 해봤는데  
