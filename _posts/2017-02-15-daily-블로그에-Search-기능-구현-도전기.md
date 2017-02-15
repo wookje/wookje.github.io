@@ -21,18 +21,18 @@ $('#search').submit(function (e) {
 });
 ```
 
-아니 무려 카카오에서 일하시는 분들이 검색을 짜기가 귀찮아서 웹으로 넘겼다고?  
-순진한 웹알못이었던 나는 아무것도 모른 채 야매로 search를 만들어보려고 했다. ~~재앙의 시작~~  
+아니 무려 카카오에서 일하시는 분들이 검색을 짜기가 귀찮아서 웹으로 넘겼다고? 그럼 내가 한 번 해보지!  
+순진한 웹알못이었던 나는 아무것도 모른 채 야매로 search를 구현하기 시작했다. ~~재앙의 시작~~  
 
 웹은 몰랐지만 다른 페이지(tags, author)가 구현된 걸 보고 복붙해서 만들려고 했다. ~~sitemap을 미리 알았더라면..~~  
 
 <img src="/files/search00.png" width="640" height="360"></img>  
-yaml 파일도 수정하고  
+yaml 파일도 건들이고   
 
 <img src="/files/search01.png" width="640" height="360"></img>  
 search.md도 만들고  
 
-<img src="./files/search02.png" width="640" height="360"></img>  
+<img src="/files/search02.png" width="640" height="360"></img>  
 레이아웃도 만들었는데  
 
 <img src="/files/search03.png" width="450" height="360"></img>  
