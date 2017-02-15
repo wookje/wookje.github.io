@@ -36,11 +36,11 @@ $('#search').submit(function (e) {
 이제 돌아가겠지?  
 
 <img src="/files/search03.png" width="450" height="360">   
-  
 으아아아아아아아아  
 
-그렇게 똑같은 파일 수십번씩 확인하고 commit 30번하고 별짓 다 해봤는데  
-범인은 사이트맵이었다 (...)  
+그렇게 똑같은 파일 수십번씩 확인하고 commit 30번하고 별짓 다 해봤는데  
+
+범인은 사이트맵이었다 (...)   
 
 ```xml
   <!--for tag in site.tags-->
