@@ -12,7 +12,7 @@ layout: null
     {% if post.date %}
     <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
     {% endif %}
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   {% endfor %}
@@ -31,14 +31,14 @@ layout: null
   {% for author in site.authors %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}/authors/{{ author.name }}</loc>
-    <changefreq>hourly</changefreq>
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   {% endfor %}
   {% for tag in site.tags %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}/tags/{{ tag.name }}</loc>
-    <changefreq>hourly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   {% endfor %}
