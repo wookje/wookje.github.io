@@ -4,7 +4,7 @@ title: '[잡담] ps와 cp에 대한 나의 경험과 생각'
 author: wookje.kwon
 comments: true
 date: 2017-02-20 17:20
-tags: [chat, daily, problem-solving, competitive-programming]
+tags: [chat, problem-solving, competitive-programming]
 
 ---
 
