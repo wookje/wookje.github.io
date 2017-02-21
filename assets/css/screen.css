@@ -19,7 +19,7 @@ h4,
 h5,
 h6 {
     font-family: 'Kakao', sans-serif;
-    font-weight: 400;
+    font-weight: 440;
     color: #1e1e1e;
 }
 
@@ -32,7 +32,7 @@ kbd {
 }
 
 b, strong, optgroup {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 a, a:link, a:visited, a:active, a:hover {
