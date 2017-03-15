@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[codeforces] #403 B. The Meeting Place Cannot Be Changed'
+title: '[codeforces] #403 div2 B'
 author: wookje.kwon
 comments: true
 date: 2017-03-15 09:19
@@ -8,7 +8,7 @@ tags: [boj, binary-search]
 
 ---
 
-[#403 B. The Meeting Place Cannot Be Changed](http://codeforces.com/contest/782/problem/B)
+[#403 div2 B. The Meeting Place Cannot Be Changed](http://codeforces.com/contest/782/problem/B)
 
 ## 풀이
 
