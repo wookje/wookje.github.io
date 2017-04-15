@@ -12,10 +12,9 @@ tags: []
 ## 정보
 
 * 선린인터넷고등학교 정보통신과 3학년
-* 핸들: wookje(요즘 거), behind06(쓰던 거), aweee0(옛날 거)
-* [https://github.com/wookje](https://github.com/wookje)
-* [https://www.acmicpc.net/user/behind06](https://www.acmicpc.net/user/behind06)
-* [https://www.acmicpc.net/user/wookje](https://www.acmicpc.net/user/wookje)
+* 핸들: wookje
+* [github](https://github.com/wookje)
+* [BOJ](https://www.acmicpc.net/user/wookje)
 
 ---
 
@@ -29,7 +28,8 @@ tags: []
 
 * Problem Solving
 * Programming Language: OCaml, Coq
-* Food
+* Math
+* Proof
 
 ---
 
