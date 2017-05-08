@@ -11,6 +11,7 @@ tags: []
 
 ## 정보
 
+* 권욱제
 * 선린인터넷고등학교 정보통신과 3학년
 * 핸들: wookje
 * [github](https://github.com/wookje)
