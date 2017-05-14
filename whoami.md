@@ -21,7 +21,9 @@ tags: []
 
 ## 업적
 
-* 부끄러움
+* [머그컵](https://www.acmicpc.net/contest/view/213) 개최
+* [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최
+* 또 뭐 없나
 
 ---
 
@@ -30,7 +32,7 @@ tags: []
 * Problem Solving
 * Programming Language: OCaml, Coq
 * Math
-* Proof
+* 새로운 영웅은 언제나 환영이야!
 
 ---
 
