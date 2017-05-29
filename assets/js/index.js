@@ -39,7 +39,7 @@
         $('#search').submit(function (e) {
             e.preventDefault();
             var q = $('#searchQueryEdit').val();
-            var url = 'https://www.google.co.kr/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q='
+            var url = 'https://www.google.co.kr/search?q='
                         + encodeURIComponent(q + ' site:wookje.dance');
             window.open(url, '', '_blank');
         });
