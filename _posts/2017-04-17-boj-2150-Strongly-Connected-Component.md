@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[BOJ] 2150번: Strongly Connected Component'
+title: '[BOJ] 2150 : Strongly Connected Component'
 author: wookje.kwon
 comments: true
 date: 2017-04-17 11:43
