@@ -8,7 +8,7 @@ tags: [boj, scc, graph, dfs]
 
 ---
 
-[2150번: Strongly Connected Component](https://www.acmicpc.net/problem/2150)
+[2150 : Strongly Connected Component](https://www.acmicpc.net/problem/2150)
 
 ## 풀이
 
@@ -152,3 +152,6 @@ int main() {
 	return 0;
 }
 ```
+
+### 아무말  
+백준, 백준 온라인 저지, BOJ, Baekjoon Online Judge

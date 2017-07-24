@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[BOJ] 머그컵 풀이 및 소스코드'
+title: '[BOJ] 머그컵 풀이'
 author: wookje.kwon
 comments: true
 date: 2017-02-12 18:22
@@ -8,7 +8,7 @@ tags: [boj, sunrin, mugcup]
 
 ---
 
-문제: [여기](https://www.acmicpc.net/contest/view/213)
+문제: [https://www.acmicpc.net/contest/view/213](https://www.acmicpc.net/contest/view/213)
 
 많은 도움 주신 스타트링크께 감사드립니다!
 
@@ -23,8 +23,6 @@ dp[문자열길이][s의 합] 일 때, 문자열 길이를 p, s 합을 q라고 �
 dp[p][q] = k가 0 ~ min(q, 25)일 때의 모든 dp[p-1][q-k]의 합  
 
 으로 점화식을 세워 해결할 수 있다.  
-
-나머지 연산 과정에서 음수가 나올 수 있으니 주의한다.  
 
 ```cpp
 #include <iostream>
@@ -70,7 +68,8 @@ int main()
 				dp[len_i][s_j] %= MOD;
 			}
 		}
-	}*/
+	}
+	*/
 
 	int len_i, s_j;
 	for (len_i = 1; len_i <= MAX_LEN; ++len_i) dp[len_i][0] = 1;
@@ -628,3 +627,6 @@ int main(){
 	return 0;
 } 
 ```
+
+### 아무말  
+백준, 백준 온라인 저지, BOJ, Baekjoon Online Judge, sunrin, 선린, 선린인터넷고등학교, 문제 풀이
