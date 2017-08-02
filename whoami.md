@@ -16,6 +16,7 @@ tags: []
 * 핸들: wookje
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
+* [Code Forces](http://codeforces.com/profile/wookje.happy)
 
 ---
 
@@ -23,6 +24,8 @@ tags: []
 
 * [머그컵](https://www.acmicpc.net/contest/view/213) 개최
 * [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최
+* [제1회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/241) 개최
+* [제1회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/242) 개최
 * 또 뭐 없나
 
 ---
@@ -32,7 +35,6 @@ tags: []
 * Problem Solving
 * Programming Language: OCaml, Coq
 * Math
-* 새로운 영웅은 언제나 환영이야!
 
 ---
 
