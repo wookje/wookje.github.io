@@ -3,7 +3,7 @@ layout: post
 title: '[BOJ] 6191 : Cows on Skates'
 author: wookje.kwon
 comments: true
-date: 2017-09-03 00:37
+date: 2017-09-03 01:22
 tags: [boj, usaco, bfs]
 
 ---
