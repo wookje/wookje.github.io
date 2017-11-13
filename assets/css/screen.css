@@ -900,7 +900,7 @@ body.tag-template #navbar {
 
 #post-content a {
     text-decoration: none;
-    text-decoration-color: #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
 }
 
 #post-content > *:first-child {
