@@ -899,11 +899,9 @@ body.tag-template #navbar {
 }
 
 #post-content a {
-    text-decoration: underline;
+    text-decoration: none;
     text-decoration-color: #e6e6e6;
-    border-bottom-color: #e6e6e6;
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
+    border-bottom: 1px solid #e6e6e6;
 }
 
 #post-content > *:first-child {
