@@ -901,8 +901,9 @@ body.tag-template #navbar {
 #post-content a {
     /* text-decoration: underline; */
     text-decoration-color: #e6e6e6;
+    border-bottom-color: #e6e6e6;
     border-bottom-style: solid;
-    border-bottom: 3px
+    border-bottom-width: 3px
 }
 
 #post-content > *:first-child {
