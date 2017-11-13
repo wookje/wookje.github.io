@@ -903,7 +903,7 @@ body.tag-template #navbar {
     text-decoration-color: #e6e6e6;
     border-bottom-color: #e6e6e6;
     border-bottom-style: solid;
-    border-bottom-width: 3px
+    border-bottom-width: 1px
 }
 
 #post-content > *:first-child {
