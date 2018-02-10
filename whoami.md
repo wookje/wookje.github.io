@@ -12,7 +12,8 @@ tags: []
 ## 정보
 
 * 권욱제
-* 선린인터넷고등학교 정보통신과 3학년
+* 선린인터넷고등학교 정보통신과 졸업 (18년 02월)
+* 숭실대학교 컴퓨터학부 입학 (18년 03월)
 * 핸들: wookje
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
