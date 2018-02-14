@@ -6,7 +6,7 @@ description: |
 
 
 baseurl: ''
-url: 'http://wookje.github.io'
+url: 'http://wookje.dance'
 timezone: Asia/Seoul 
 
 repository: wookje/wookje.github.io
