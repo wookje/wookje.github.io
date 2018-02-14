@@ -36,6 +36,7 @@
             }
         });
 
+        /*
         $('#search').submit(function (e) {
             e.preventDefault();
             var q = $('#searchQueryEdit').val();
@@ -43,6 +44,7 @@
                         + encodeURIComponent(q + ' site:wookje.dance');
             window.open(url, '', '_blank');
         });
+        */
 
         $(window).scroll(function () {
             var viewportTop = $(window).scrollTop();

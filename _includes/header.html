@@ -6,11 +6,27 @@
         <span class="sr-only">Toggle Search Form</span>
     </button>
     <a id="logo" href="/">
-        <span class="sr-only">KakaoTech</span>
+        <span class="sr-only">WookjeBlog</span>
     </a>
+<!--
     <form id="search">
         <input id="searchQueryEdit" name="q" type="search" placeholder="Search..." value="" />
     </form>
+-->
+    <input type="text" id="search-input" placeholder="search posts..">
+        <br/>
+    <div id="results-container"></div>
+
+    <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+    <script>
+        SimpleJekyllSearch({
+          search-input: document.querySelector('.search-input'),
+          resultsContainer: document.getElementById('results-container'),
+          json: '/search.json',
+          searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
+        })
+    </script>
+
     <ul id="menu" class="nav">
         <li class="{% if page.url != '/opensource/' and page.url != '/openapi/' and page.url != '/events/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
         <li class="{% if page.url == '/whoami/' %} active {% endif %}"><a href="{{ base_path }}/whoami/">후엠아이</a></li>
