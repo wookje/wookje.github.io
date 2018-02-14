@@ -20,7 +20,7 @@ tags: []
 
 ---
 
-## 업적
+## 잡것
 
 * [머그컵](https://www.acmicpc.net/contest/view/213) 개최 (17.02)
 * [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최 (17.04)
@@ -36,7 +36,9 @@ tags: []
 * 선린인터넷고등학교 교내정보올림피아드 2위 (2017)
 * 선린인터넷고등학교 교내정보올림피아드 3위 (2015, 2016)
 * 2016 공개SW 해카톤 우수 (16.09)
-* 기타 등등...
+
+
+* 기타 등등
 
 ---
 
@@ -44,7 +46,6 @@ tags: []
 
 * Problem Solving
 * Programming Language: OCaml, Coq
-* Math
 
 ---
 
