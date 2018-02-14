@@ -13,14 +13,14 @@
         <input id="searchQueryEdit" name="q" type="search" placeholder="Search..." value="" />
     </form>
 -->
-    <input type="text" id="search-input" placeholder="search posts..">
-        <br/>
+    <input type="text" id="search-input" placeholder="Search...">
+    <br/>
     <div id="results-container"></div>
 
     <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
     <script>
         SimpleJekyllSearch({
-          search-input: document.querySelector('.search-input'),
+          search-input: document.querySelector('search-input'),
           resultsContainer: document.getElementById('results-container'),
           json: '/search.json',
           searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
