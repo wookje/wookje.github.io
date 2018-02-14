@@ -8,25 +8,28 @@
     <a id="logo" href="/">
         <span class="sr-only">WookjeBlog</span>
     </a>
-    <form id="search">
-        <input id="searchQueryEdit" name="q" type="text" placeholder="Search..." value="" />
-    </form>
-    <br/>
-    <div id="results-container"></div>
-
-    <script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
-    <script>
-        SimpleJekyllSearch({
-          search-input: document.querySelector('searchQueryEdit'),
-          resultsContainer: document.getElementById('results-container'),
-          json: '/search.json',
-          searchResultTemplate: '<li><a href="{{ site.url }}{url}">{title}</a></li>'
-        })
-    </script>
+    <div id="search">
+        <input id="search-input" type="search" placeholder="Search..." value="" />
+    </div>
+    <ul class="search__results" id="results-container"></ul>
 
     <ul id="menu" class="nav">
         <li class="{% if page.url != '/opensource/' and page.url != '/openapi/' and page.url != '/events/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
         <li class="{% if page.url == '/whoami/' %} active {% endif %}"><a href="{{ base_path }}/whoami/">후엠아이</a></li>
         <!--<li class="{% if page.url == '/openapi/' %} active {% endif %}"><a href="{{ base_path }}/openapi/">오픈API</a></li>-->
     </ul>
-</div><!-- #header -->
+</div>
+
+<script src="https://unpkg.com/simple-jekyll-search@1.5.0/dest/simple-jekyll-search.min.js"></script>
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+        noResultsText: '<li>No results found</li>',
+        limit: 15,
+        fuzzy: false,
+        exclude: ['Welcome']
+    })
+</script><!-- #header -->
