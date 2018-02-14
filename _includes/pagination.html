@@ -1,6 +1,6 @@
 <ul id="pagination" role="navigation">
     {% if paginator %}
-        {% if paginator.total_pages <= 9 %}
+        {% if paginator.total_pages <= 5 %}
             {% assign first = 1 %}
             {% assign last = paginator.total_pages %}
         {% else %}
@@ -8,7 +8,7 @@
             {% if first < 1 %}
                 {% assign first = 1 %}
             {% endif %}
-            {% assign last = first | plus: 5 %}
+            {% assign last = first | plus: 4 %}
             {% if last > paginator.total_pages %}
                 {% assign last = paginator.total_pages %}
             {% endif %}
