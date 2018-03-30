@@ -4,7 +4,7 @@ title: '[BOJ] 14816 : Fresh Chocolate (Large)'
 author: wookje.kwon
 comments: true
 date: 2018-03-30 17:04
-tags: [boj, math]
+tags: [boj, google-code-jam, math]
 
 ---
 
