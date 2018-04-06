@@ -11,7 +11,7 @@ sitemap:
 
 ---
 
-### 자주 찾는 것들
+## 자주 찾는 태그
 
 * [samsung]({{ site.baseurl }}/tags/samsung/)
 * [bfs]({{ site.baseurl }}/tags/bfs/)
@@ -30,6 +30,8 @@ sitemap:
 * [naive]({{ site.baseurl }}/tags/naive/)
 
 ---
+
+## 모든 태그
 
 {% for tag in site.tags %}
 * [{{ tag.name }}]({{ site.baseurl }}/tags/{{ tag.name }})
