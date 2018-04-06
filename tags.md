@@ -9,6 +9,8 @@ sitemap:
 **태그는 `[ctrl + f]` 후에 영어로 검색!**  
 **띄어쓰기는 `dynamic-programming` 이렇게!**
 
+---
+
 ### 자주 찾는 것들
 
 * [samsung]({{ site.baseurl }}/tags/samsung/)
