@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '[BOJ] 14969 : Taro's Shopping'
+title: '[BOJ] 14969 : Taro`s Shopping'
 author: wookje.kwon
 comments: true
 date: 2018-06-30 17:33
