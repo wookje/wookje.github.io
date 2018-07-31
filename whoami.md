@@ -16,7 +16,7 @@ tags: []
 * 숭실대학교 컴퓨터학부 입학 (18.03)
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
-* [Code Forces](http://codeforces.com/profile/wookje.happy)
+* [Code Forces](http://codeforces.com/profile/wo_okje)
 
 ---
 
