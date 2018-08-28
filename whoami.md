@@ -31,6 +31,7 @@ tags: []
 * [제2회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/303) 출제 (18.07)
 * [제2회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/310) 출제 (18.07)  
 .  
+* [2018 SCON](http://contest.sccc.kr/2018SCON/) 4위 (18.05)
 * [UCPC 2018 온라인 예선](https://www.acmicpc.net/contest/view/307) 21위 (18.07)  
 .  
 * 제22회 서울특별시IT창의성대회 프로그래밍전문가 부문 대상 (16.06)
