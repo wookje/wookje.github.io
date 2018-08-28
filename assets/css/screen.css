@@ -30,7 +30,7 @@ kbd {
     /*font-family: monospace;*/
     font-family: Menlo, Monaco, 'Source Code Pro', consolas, monospace;
     font-size: medium;
-    font-weight: 300;
+    font-weight: 250;
 }
 
 b, strong, optgroup {
@@ -124,6 +124,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 .clearfix:after {
     clear: both;
+}
+
+.highlighter-rouge {
+    font-weight: 400;
 }
 
 /*
