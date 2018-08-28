@@ -28,9 +28,13 @@ tags: []
 * [제1회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/242) 개최 (17.07)  
 * [제2회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/303) 출제 (18.07)
 * [제2회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/310) 출제 (18.07)
+  
 .  
+   
 * [UCPC 2018 온라인 예선](https://www.acmicpc.net/contest/view/307) 21위 (18.07)
+  
 .  
+  
 * 제22회 서울특별시IT창의성대회 프로그래밍전문가 부문 대상 (16.06)
 * 제28회 전국ICT창의성대회 프로그래밍전문가 부문 금상 (17.08)
 * 제31회 정보올림피아드 지역예선 금상 (2014)
