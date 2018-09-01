@@ -17,7 +17,7 @@ tags: []
 * 선린인터넷고등학교 정보통신과 졸업 (18.02)
 * 숭실대학교 컴퓨터학부 입학 (18.03)
 * [github](https://github.com/wookje)
-* [BOJ](https://www.acmicpc.net/user/wookje)
+* [BOJ](https://www.acmicpc.net/user/wo_okje)
 * [Code Forces](http://codeforces.com/profile/wo_okje)
 
 ---
