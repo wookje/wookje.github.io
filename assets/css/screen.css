@@ -835,7 +835,7 @@ body.tag-template #navbar {
 #asdf {
     position: relative;
     margin: 0 40px;
-    padding: 70px 40px 100px 40px; /* 40(margin) + 40(padding) = 80 */
+    padding: 30px 40px 30px 40px; /* 40(margin) + 40(padding) = 80 */
     border-bottom: 1px solid #e6e6e6;
     font-size: 16px;
     line-height: 28px; /* 28px = 16(font-size) + 12(line-spacing) */
@@ -843,7 +843,7 @@ body.tag-template #navbar {
 }
 
 #asdf h2 {
-    margin: 50px 0 30px 0;
+    margin: 0px 0 0px 0;
     font-size: 23px;
 }
 
