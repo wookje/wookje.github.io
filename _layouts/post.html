@@ -22,8 +22,8 @@ layout: default
 </div>
 
 <div id="content" class="container post" role="main">
+    <div id="asdf">코드 복사/붙여넣기 하는 당신이 아름답습니다.</div>
     <div id="post-content">{{ content }}</div>
-    코드 복사/붙여넣기 하는 당신이 아름답습니다.
     <div id="post-footer">
         {% assign author = site.authors | where: 'name', page.author | first %}
         <a id="post-author" href="{{ author.url }}">
