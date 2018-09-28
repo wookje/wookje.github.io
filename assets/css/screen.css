@@ -842,6 +842,11 @@ body.tag-template #navbar {
     text-align: justify;
 }
 
+#asdf h2 {
+    margin: 50px 0 30px 0;
+    font-size: 23px;
+}
+
 #post-content {
     position: relative;
     margin: 0 40px;
