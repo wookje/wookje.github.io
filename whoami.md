@@ -1,6 +1,6 @@
 ---
 layout: page
-title: whoami
+title: 소개
 image: /files/covers/openapi.png
 permalink: /whoami/
 sitemap: yes
