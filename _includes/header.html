@@ -14,10 +14,10 @@
     <ul class="search__results" id="results-container"></ul>
 
     <ul id="menu" class="nav">
-        <li class="{% if page.url != '/tags/' and page.url != '/whoami/' and page.url != '/tags/' and page.url != '/2017/11/17/과외/' active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
-        <li class="{% if page.url == '/whoami/' and page.url != '/tags/' and page.url != '/tags/' and page.url != '/2017/11/17/과외/' %} active {% endif %}"><a href="{{ base_path }}/whoami/">약력</a></li>
+        <li class="{% if page.url != '/tags/' and page.url != '/whoami/' and page.url != '/2017/11/17/과외/' %} active {% endif %}"><a href="{{ base_path }}/">블로그</a></li>
+        <li class="{% if page.url == '/whoami/' %} active {% endif %}"><a href="{{ base_path }}/whoami/">약력</a></li>
         <li class="{% if page.url == '/tags/' %} active {% endif %}"><a href="{{ base_path }}/tags/">태그</a></li>
-        <li class="{% if page.url == '/2017/11/17/과외/' %} active {% endif %}"><a href="{{ base_path }}/2017/11/17/과외/">과외</a></li>
+        <li class="{% if page.url == '/2017/11/17/과외/' %} active {% endif %}"><a href="{{ base_path }}/2017/11/17/과외/">과외/강의</a></li>
     </ul>
 </div>
 
