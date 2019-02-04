@@ -40,7 +40,7 @@ b, strong, optgroup {
 a, a:link, a:visited, a:active, a:hover {
     color: #505050;
     text-decoration: none;
-    font-weight: 250;
+    font-weight: 350;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -898,7 +898,7 @@ body.tag-template #navbar {
 
 #post-content p {
     margin: 28px 0 0 0;
-    font-weight: 300;
+    font-weight: 350;
 }
 
 #post-content ul,
@@ -952,7 +952,7 @@ body.tag-template #navbar {
 
 #post-content a {
     text-decoration: none;
-    border-bottom: 1px solid #d9d9d9;
+    border-bottom: 1px solid #c0c0c0;
 }
 
 #post-content > *:first-child {
