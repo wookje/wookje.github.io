@@ -952,7 +952,7 @@ body.tag-template #navbar {
 
 #post-content a {
     text-decoration: none;
-    border-bottom: 1px solid #c0c0c0;
+    border-bottom: 1px solid #f3cf00;
 }
 
 #post-content > *:first-child {
