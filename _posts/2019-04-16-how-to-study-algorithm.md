@@ -1,6 +1,6 @@
 ---
 layout: post
-title: '내가 알고리즘을 공부하는 방법'
+title: '[잡담] 내가 알고리즘을 공부하는 방법'
 author: wookje.kwon
 comments: true
 date: 2019-04-16 10:31
