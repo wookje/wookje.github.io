@@ -10,9 +10,10 @@ tags: [chat]
 
 요즘 ps 공부하는 방법 포스팅하는 게 유행인 것 같더라구요. 그래서 저도 빠르게 탑승합니다 하하하하하하
 
-관련글: [subinium: PS를 공부하는 방법 (How to study Problem Solving?)](https://subinium.github.io/how-to-study-problem-solving/)  
-관련글: [koosaga: 내가 문제풀이를 연습하는 방법](https://koosaga.com/217)  
-관련글: [baaxtree: 알고리즘 공부, 어떻게 해아하나요?](https://baactree.tistory.com/52)
+**관련글**  
+[subinium: PS를 공부하는 방법 (How to study Problem Solving?)](https://subinium.github.io/how-to-study-problem-solving/)  
+[koosaga: 내가 문제풀이를 연습하는 방법](https://koosaga.com/217)  
+[baactree: 알고리즘 공부, 어떻게 해아하나요?](https://baactree.tistory.com/52)
 
 ## 들어가기 전에
 
