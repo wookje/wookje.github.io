@@ -14,7 +14,7 @@ tags: [chat]
 
 이 글의 전제는 **대회를 위한 문제 세트**를 만드는 과정입니다.  
 
-저는 지금까지 [36문제](https://www.acmicpc.net/ranklist/contribute/1) 정도를 출제했고, 검수한 문제까지 합치면 이거보다 좀 더 많겠네요.  
+저는 지금까지 [36문제](https://www.acmicpc.net/ranklist/contribute/1) 정도를 출제했고, 검수한 문제까지 합치면 이거보다 좀 더 많겠네요. ([욱제가 낸 문제 목록](https://www.acmicpc.net/problem/author/wookje/1)) 
 
 초창기에 낸 문제들은 진짜 개구데기같은 지워버리고 싶은 문제들밖에 없는데  
 
