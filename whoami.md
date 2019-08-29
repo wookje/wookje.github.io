@@ -26,23 +26,31 @@ tags: []
 
 ## 대회 운영
 
-* [머그컵](https://www.acmicpc.net/contest/view/213) 개최 (17.02)
-* [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최 (17.04)
-* [제1회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/241) 개최 (17.07)
-* [제1회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/242) 개최 (17.07)  
-* [제2회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/303) 출제 (18.07)
+* [2019 선린 정보 알고리즘경시대회](https://www.acmicpc.net/contest/view/456) 출제 (19.08)  
+* [2019 숭고한 연합 Algorithm Camp Contest](https://www.acmicpc.net/contest/view/448) 출제 (19.08)  
+* [제3회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/438) 출제 (19.07)  
+* [제3회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/436) 출제 (19.06)
+* [2019 SCON](https://www.acmicpc.net/contest/view/416) 개최 (19.05)  
+* [2019 SCCC 벚꽃맞이 컨테스트](https://www.acmicpc.net/contest/view/402) 개최 (19.04)  
 * [제2회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/310) 출제 (18.07)  
+* [제2회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/303) 출제 (18.07)
+* [제1회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/242) 개최 (17.07)  
+* [제1회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/241) 개최 (17.07)
+* [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최 (17.04)
+* [머그컵](https://www.acmicpc.net/contest/view/213) 개최 (17.02)
 
 ---
 
 ## 대회 참가
 
 ### 2018
-* [2018 SCON](http://contest.sccc.kr/2018SCON/) 4위 (18.05)
-* [UCPC 2018 온라인 예선](https://www.acmicpc.net/contest/view/307) 21위 - 욱제와 형아들 (18.07)  
-* [UCPC 2018 본선](https://www.acmicpc.net/contest/view/314) 39위 - 욱제와 형아들 (18.07)  
-* [2018 ACM-ICPC Seoul Reginal Preliminary Contest](http://icpckorea.org/2018-seoul/preliminary) 46위 - wookje_and_bros(18.10)  
+* [UCPC 2019 본선](https://www.acmicpc.net/contest/view/450) 20위 - 내니까 믿으니까 개.잘.하.니.까 (19.08)  
+* [UCPC 2019 온라인 예선](https://www.acmicpc.net/contest/view/449) 23위 - 내니까 믿으니까 개.잘.하.니.까 (19.07)  
 * [2018 ACM-ICPC Seoul Reginal](http://icpckorea.org/2018-seoul/regional) 65위 - wookje_and_bros (18.11) 
+* [2018 ACM-ICPC Seoul Reginal Preliminary Contest](http://icpckorea.org/2018-seoul/preliminary) 46위 - wookje_and_bros(18.10)  
+* [UCPC 2018 본선](https://www.acmicpc.net/contest/view/314) 39위 - 욱제와 형아들 (18.07)  
+* [UCPC 2018 온라인 예선](https://www.acmicpc.net/contest/view/307) 21위 - 욱제와 형아들 (18.07)  
+* [2018 SCON](http://contest.sccc.kr/2018SCON/) 4위 (18.05)
 
 ### 2017
 * 제28회 전국ICT창의성대회 프로그래밍전문가 부문 금상 (17.08)
@@ -66,6 +74,9 @@ tags: []
 
 ## 강의
 
+* 선린인터넷고등학교 정보올림피아드반 알고리즘 강사 (19.07)  
+* 선린인터넷고등학교 소프트웨어과 알고리즘 강사 (19.05 - 19.06)  
+.
 * 선린인터넷고등학교 소프트웨어과 이산수학 강사 (18.12 - 19.01)
 * 선린인터넷고등학교 정보올림피아드반 알고리즘 강사 (18.07 - 18.08)  
 * 선린인터넷고등학교 소프트웨어과 자료구조 강사 (18.05 - 18.06)  
