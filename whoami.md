@@ -43,9 +43,12 @@ tags: []
 
 ## 대회 참가
 
-### 2018
+### 2019
+* [2019 Function Cup](https://oj.uz/contest/view/FUNCTIONCUP4) 26위 - 이 대회 미분 되나요? (19.09)  
 * [UCPC 2019 본선](https://www.acmicpc.net/contest/view/450) 20위 - 내니까 믿으니까 개.잘.하.니.까 (19.08)  
 * [UCPC 2019 온라인 예선](https://www.acmicpc.net/contest/view/449) 23위 - 내니까 믿으니까 개.잘.하.니.까 (19.07)  
+
+### 2018
 * [2018 ACM-ICPC Seoul Reginal](http://icpckorea.org/2018-seoul/regional) 65위 - wookje_and_bros (18.11) 
 * [2018 ACM-ICPC Seoul Reginal Preliminary Contest](http://icpckorea.org/2018-seoul/preliminary) 46위 - wookje_and_bros(18.10)  
 * [UCPC 2018 본선](https://www.acmicpc.net/contest/view/314) 39위 - 욱제와 형아들 (18.07)  
