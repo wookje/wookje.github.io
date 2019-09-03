@@ -8,7 +8,7 @@ tags: [chat]
 
 ---
 
-어... 이거 쓰기 전에 [소개 페이지](http://wookje.dance/whoami/) 업데이트 하고 왔는데 충격적이네요...
+이거 쓰기 전에 [소개 페이지](http://wookje.dance/whoami/) 업데이트 하고 왔는데 충격적이네요 (;;)
 
 * [2019 선린 정보 알고리즘경시대회](https://www.acmicpc.net/contest/view/456) 출제 (19.08)  
 * [2019 숭고한 연합 Algorithm Camp Contest](https://www.acmicpc.net/contest/view/448) 출제 (19.08)  
@@ -25,7 +25,7 @@ tags: [chat]
 
 ㅋㅋㅋㅋ 미친놈도 아니고 무슨 대회를 한 달 간격으로 열었네  
 
-이제 두 번 다시 출제는 없다..!
+이제 두 번 다시 대회는 없다
 
 ## 들어가기 전에
 
