@@ -14,6 +14,56 @@ sitemap:
 
 wookje.happy@gmail.com 또는 개인적으로 연락 주세요
 
+## Include 인클루드
+
+```cpp
+#include<cstdio>
+#include<iostream>
+#include<algorithm>
+#include<vector>
+#include<queue>
+#include<deque>
+#include<stack>
+#include<string>
+#include<list>
+#include<map>
+#include<set>
+#include<unordered_map>
+#include<unordered_set>
+#include<bitset>
+#include<tuple>
+#include<functional>
+#include<utility>
+#include<cmath>
+#include<cstdlib>
+#include<cstring>
+#include<complex>
+#include<cassert>
+#define y1 fuck
+#define fst first
+#define snd second
+#define mp make_pair
+#define pb push_back
+using namespace std;
+using ll = long long;
+using ull = unsigned long long;
+using dbl = double;
+using ldb = long double;
+using pii = pair<int,int>;
+using pll = pair<ll,ll>;
+using vi = vector<int>;
+ll gcd(ll a, ll b){return b?gcd(b,a%b):a;}
+ll lcm(ll a, ll b) {if(!a||!b)return a+b;return a*(b/gcd(a,b));}
+const int dx[]={0,1,0,-1},dy[]={1,0,-1,0};
+
+int main() {
+    //cin.tie(0); ios_base::sync_with_stdio(0);
+
+
+    return 0;
+}
+```
+
 ## Tree 트리
 
 ### Fenwick Tree 펜윅 트리
@@ -31,13 +81,13 @@ int n;
 ll tree[MAXN];
 
 inline void upd(int h, ll v) {
-	 for (int i = h; i <= n; i += i&-i) tree[i] += v;
+    for (int i = h; i <= n; i += i&-i) tree[i] += v;
 }
 
 ll qry(int h) {
-	 ll ret = 0;
-	 for (int i = h; i; i -= i&-i) ret += tree[i];
-	 return ret;
+    ll ret = 0;
+    for (int i = h; i; i -= i&-i) ret += tree[i];
+    return ret;
 }
 ```
 
