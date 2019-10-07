@@ -6,6 +6,8 @@ sitemap:
   priority: 0.7
 ---
 
+(업데이트 중)
+
 알고리즘/자료구조 복붙용 라이브러리
 
 수정 및 추가 제안, 오류 제보 환영합니다
@@ -13,6 +15,94 @@ sitemap:
 wookje.happy@gmail.com 또는 개인적으로 연락 주세요
 
 ## Tree 트리
+
+### Fenwick Tree 펜윅 트리
+
+point update, range query
+
+`qry(h): 1~h까지의 합`  
+`upd(h, v): h에 v만큼 더함`  
+
+```cpp
+typedef long long ll;
+const int MAXN = 1e6 + 1;
+
+int n;
+ll tree[MAXN];
+
+inline void upd(int h, ll v) {
+	 for (int i = h; i <= n; i += i&-i) tree[i] += v;
+}
+
+ll qry(int h) {
+	 ll ret = 0;
+	 for (int i = h; i; i -= i&-i) ret += tree[i];
+	 return ret;
+}
+```
+
+range update, point query
+
+`qry(h): h의 누적합`  
+`upd(s, e, x): h에 v만큼 더함`  
+
+```cpp
+typedef long long ll;
+const int MAXN = 1e6 + 1;
+
+int n;
+ll tree[MAXN];
+
+inline void upd(int s, int e, ll x) {
+    if (s <= e) {
+	      for (int i = s; i <= n; i += i&-i) tree[i] += x;
+	      for (int i = e+1; i <= n; i += i&-i) tree[i] -= x;
+    }
+    else {
+        for (int i = 1; i <= n; i += i&-i) tree[i] += x;
+        for (int i = s+1; i <= n; i += i&-i) tree[i] -= x;
+        for (int i = e; i <= n; i += i&-i) tree[i] += x;
+    }
+}
+
+ll qry(int h) {
+	  ll ret = 0;
+	  for (int i = h; i; i -= i&-i) ret += bit[i];
+	  return ret;
+}
+```
+
+### Non Recursive Segment Tree 비재귀 세그먼트 트리
+
+sum, point update, range query
+
+```cpp
+typedef long long ll;
+
+const int MAXN = (1 << 20);
+
+ll a[MAXN*2+10], tree[MAXN*2+10];
+
+void update(int i, ll v) {
+    i += MAXN;
+    while (i) {
+        tree[i] += v;
+        i /= 2;
+    }
+}
+
+ll query(int s, int e) {
+    ll sum = 0;
+    s += MAXN; e += MAXN;
+    while (s <= e) {
+        if (s % 2 == 1) sum += tree[s];
+        if (e % 2 == 0) sum += tree[e];
+        s = (s + 1) / 2;
+        e = (e - 1) / 2;
+    }
+    return sum;
+}
+```
 
 ### PST Persistent Segment Tree 피에스티
 
