@@ -94,7 +94,7 @@ ll qry(int h) {
 range update, point query
 
 `qry(h): h의 누적합`  
-`upd(s, e, x): h에 v만큼 더함`  
+`upd(s, e, x): [s, e]에 x만큼 더함`  
 
 ```cpp
 typedef long long ll;
