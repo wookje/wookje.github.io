@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Tags
+title: 라이브러리
 permalink: /library/
 sitemap:
   priority: 0.7
@@ -10,6 +10,8 @@ sitemap:
 
 알고리즘/자료구조 복붙용 라이브러리
 
+코드에 오류가 있을 가능성 아주 높습니다
+
 수정 및 추가 제안, 오류 제보 환영합니다
 
 wookje.happy@gmail.com 또는 개인적으로 연락 주세요
@@ -17,6 +19,7 @@ wookje.happy@gmail.com 또는 개인적으로 연락 주세요
 ## Include 인클루드
 
 ```cpp
+// http://wookje.dance/library/
 #include<cstdio>
 #include<iostream>
 #include<algorithm>
@@ -39,11 +42,13 @@ wookje.happy@gmail.com 또는 개인적으로 연락 주세요
 #include<cstring>
 #include<complex>
 #include<cassert>
-#define y1 fuck
+#define y1 fuckfuckfuck
 #define fst first
 #define snd second
-#define mp make_pair
 #define pb push_back
+#define sz(v) ((int)(v).size())
+#define all(v)) (v).begin(), (v).end()
+#define PQ priority_queue
 using namespace std;
 using ll = long long;
 using ull = unsigned long long;
@@ -54,10 +59,29 @@ using pll = pair<ll,ll>;
 using vi = vector<int>;
 ll gcd(ll a, ll b){return b?gcd(b,a%b):a;}
 ll lcm(ll a, ll b) {if(!a||!b)return a+b;return a*(b/gcd(a,b));}
+pll ext_gcd(ll a, ll b){
+    if (b == 0) return { 1,0 };
+    auto t = ext_gcd(b, a%b);
+    return { t.second,t.first-(a/b)*t.second };
+}
 const int dx[]={0,1,0,-1},dy[]={1,0,-1,0};
+struct point {
+    int x, y;
+    bool operator <(point a)const {
+        return x == a.x ? y < a.y : x < a.x;
+    }
+};
+struct edg {
+    int idx; ll dst;
+    bool operator <(edg a)const {
+        return dst > a.dst;
+    }
+};
 
 int main() {
     //cin.tie(0); ios_base::sync_with_stdio(0);
+
+
 
 
     return 0;
@@ -461,13 +485,9 @@ int lcm(int a, int b){ return a * b / gcd(a,b); }
 
 ```cpp
 pair<int,int> ext_gcd(int a, int b){
-    if (b) {
-        auto tmp = ext_gcd(b, a%b);
-        return { tmp.second,tmp.first-(a/b)*tmp.second };
-    }
-    else {
-      return { 1,0 };
-    }
+    if (b == 0) return { 1,0 };
+    auto t = ext_gcd(b, a%b);
+    return { t.second,t.first-(a/b)*t.second };
 }
 ```
 
