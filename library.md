@@ -1,10 +1,16 @@
 ---
 layout: page
 title: Tags
-permalink: /teamnote/
+permalink: /library/
 sitemap:
   priority: 0.7
 ---
+
+알고리즘/자료구조 복붙용 라이브러리
+
+수정 및 추가 제안, 오류 제보 환영합니다
+
+wookje.happy@gmail.com 또는 개인적으로 연락 주세요
 
 ## Tree 트리
 
