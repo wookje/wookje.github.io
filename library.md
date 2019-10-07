@@ -105,8 +105,8 @@ ll tree[MAXN];
 
 inline void upd(int s, int e, ll x) {
     if (s <= e) {
-	      for (int i = s; i <= n; i += i&-i) tree[i] += x;
-	      for (int i = e+1; i <= n; i += i&-i) tree[i] -= x;
+        for (int i = s; i <= n; i += i&-i) tree[i] += x;
+        for (int i = e+1; i <= n; i += i&-i) tree[i] -= x;
     }
     else {
         for (int i = 1; i <= n; i += i&-i) tree[i] += x;
@@ -116,9 +116,9 @@ inline void upd(int s, int e, ll x) {
 }
 
 ll qry(int h) {
-	  ll ret = 0;
-	  for (int i = h; i; i -= i&-i) ret += bit[i];
-	  return ret;
+    ll ret = 0;
+    for (int i = h; i; i -= i&-i) ret += bit[i];
+    return ret;
 }
 ```
 
