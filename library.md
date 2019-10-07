@@ -178,6 +178,18 @@ ll query(int s, int e) {
 }
 ```
 
+### Lazy Propagation 레이지
+
+```cpp
+TODO
+```
+
+### Merge Sort Tree 머지 소트 트리
+
+```cpp
+TODO
+```
+
 ### PST Persistent Segment Tree 피에스티
 
 ```cpp
@@ -219,6 +231,12 @@ struct PST {
         }
     }
 } pst;
+```
+
+### Li Chao 리차오
+
+```cpp
+TODO
 ```
 
 ## Flow 플로우
@@ -463,6 +481,14 @@ int main() {
     findCutEdge(1, -1);
 }
 ```
+
+## DP Dynamic Programming 디피 동적계획법
+
+### Convex Hull Trick CHT 컨벡스 헐 트릭
+
+```cpp
+TODO
+``
 
 ## Math 수학
 
