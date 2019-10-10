@@ -154,8 +154,7 @@ sum, point update, range query
 typedef long long ll;
 
 const int MAXN = (1 << 20);
-
-ll a[MAXN*2+10], tree[MAXN*2+10];
+ll tree[MAXN*2+10];
 
 void update(int i, ll v) {
     i += MAXN;
@@ -176,6 +175,12 @@ ll query(int s, int e) {
     }
     return sum;
 }
+```
+
+min(max), point update, range query
+
+```cpp
+TODO
 ```
 
 ### Lazy Propagation 레이지
@@ -488,9 +493,59 @@ int main() {
 
 ```cpp
 TODO
-``
+```
 
 ## Math 수학
+
+### Eratos Get Prime 에라토스테네스의 체 소수
+
+```cpp
+// [s, e] 구간의 소수들을 오름차순으로 리턴함
+bool chkP[10000001]; // 배열 크기 주의
+vector<ll> getPrimes(ll s, ll e) {
+    vector<ll> ret;
+    for (ll i = 2; i*i <= e; i++) if (!chkP[i])
+        for (ll j = i*i; j <= e; j+=i) chkP[j] = 1;
+    for (ll i = 2; i <= e; i++) if (!chkP[i] && s <= i && i <= e)
+        ret.push_back(i);
+    return ret;
+}
+```
+
+### Prime Factorization Soinsu 소인수 분해
+
+```cpp
+// 밑만 리턴함, 중복 없음
+vector<ll> getSoinsu(ll x) {
+    ll y = x;
+    vector<ll> ret;
+    for (ll i = 2; i*i <= x; i++) {
+        if (y%i == 0) {
+            ret.push_back(i);
+            while (y%i == 0) y /= i;
+        }
+    }
+    if (y != 1) ret.push_back(y);
+    return ret;
+}
+```
+
+```cpp
+// (밑, 지수) 쌍들을 리턴함, 밑에 대해서 오름차순으로 리턴함
+vector<pair<ll, int> > getSoinsu(ll x) {
+    ll y = x;
+    vector<pair<ll, int> > ret;
+    for (ll i = 2; i*i <= x; i++) {
+        if (y%i == 0) {
+            int cnt = 0;
+            while (y%i == 0) y /= i, cnt++;
+            ret.push_back({ i,cnt });
+        }
+    }
+    if (y != 1) ret.push_back({ y,1 });
+    return ret;
+}
+```
 
 ### GCD 최대공약수
 
@@ -502,7 +557,7 @@ int gcd(int a, int b){ return b?gcd(b,a%b):a; }
 
 ```cpp
 int gcd(int a, int b){ return b?gcd(b,a%b):a; }
-int lcm(int a, int b){ return a * b / gcd(a,b); }
+int lcm(int a, int b) {if(!a||!b)return a+b;return a*(b/gcd(a,b));}
 ```
 
 ### Extended GCD 확장 유클리드
