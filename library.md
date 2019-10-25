@@ -78,14 +78,29 @@ struct edg {
     }
 };
 
+const int powmod = 1e9+7;
+ll mypow(ll base, ll exp) {
+    if (base == 1) return 1;
+    ll ans = 1;
+    while (exp) {
+        if (exp & 1) {
+            ans = (ans * base)%powmod;
+        }
+        base = (base*base)%powmod;
+        exp >>= 1;
+    }
+    return ans;
+}
+
+
 int main() {
     //cin.tie(0); ios_base::sync_with_stdio(0);
 
 
 
-
     return 0;
 }
+
 ```
 
 ## Tree 트리
