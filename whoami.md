@@ -44,12 +44,15 @@ tags: []
 ## 대회 참가
 
 ### 2019
+* [2019 ACM-ICPC Yokohama Reginal](https://icpc.iisf.or.jp/2019-yokohama/asia-yokohama-regional-contest-2019/?fbclid=IwAR2qIx7zUI7eunGRkRIOh83OJ3A-jllgHMTRzoOXrquHIsNt6j-e2S1tWV4) 41위 - baby shark~ dururu~ duru~ (19.11)  
+* [2019 ACM-ICPC Seoul Reginal](http://icpckorea.org/archives/1998) 21위(특별상) - bonin 1st sangsang-ham (19.11)  
+* [2019 ACM-ICPC Seoul Reginal Preliminary Contest](http://icpckorea.org/archives/1897) 31위 - bonin 1st sangsang-ham(19.10)  
 * [2019 Function Cup](https://oj.uz/contest/view/FUNCTIONCUP4) 26위 - 이 대회 미분 되나요? (19.09)  
 * [UCPC 2019 본선](https://www.acmicpc.net/contest/view/450) 20위 - 내니까 믿으니까 개.잘.하.니.까 (19.08)  
 * [UCPC 2019 온라인 예선](https://www.acmicpc.net/contest/view/449) 23위 - 내니까 믿으니까 개.잘.하.니.까 (19.07)  
 
 ### 2018
-* [2018 ACM-ICPC Seoul Reginal](http://icpckorea.org/2018-seoul/regional) 65위 - wookje_and_bros (18.11) 
+* [2018 ACM-ICPC Seoul Reginal](http://icpckorea.org/2018-seoul/regional) 65위 - wookje_and_bros (18.11)  
 * [2018 ACM-ICPC Seoul Reginal Preliminary Contest](http://icpckorea.org/2018-seoul/preliminary) 46위 - wookje_and_bros(18.10)  
 * [UCPC 2018 본선](https://www.acmicpc.net/contest/view/314) 39위 - 욱제와 형아들 (18.07)  
 * [UCPC 2018 온라인 예선](https://www.acmicpc.net/contest/view/307) 21위 - 욱제와 형아들 (18.07)  
