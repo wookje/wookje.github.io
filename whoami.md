@@ -23,19 +23,19 @@ tags: []
 
 ## 대회 운영
 
-* [Good Bye, BOJ 2019!](https://www.acmicpc.net/contest/view/497) 출제 (19.12)
+* [Good Bye, BOJ 2019!](https://www.acmicpc.net/contest/view/497) 출제 (19.12)  
 * [2019 선린 정보 알고리즘경시대회](https://www.acmicpc.net/contest/view/456) 출제 (19.08)  
 * [2019 숭고한 연합 Algorithm Camp Contest](https://www.acmicpc.net/contest/view/448) 출제 (19.08)  
 * [제3회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/438) 출제 (19.07)  
 * [제3회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/436) 출제 (19.06)
-* [2019 SCON](https://www.acmicpc.net/contest/view/416) 개최 (19.05)  
-* [2019 SCCC 벚꽃맞이 컨테스트](https://www.acmicpc.net/contest/view/402) 개최 (19.04)  
+* [2019 SCON](https://www.acmicpc.net/contest/view/416) 개최, 출제 (19.05)  
+* [2019 SCCC 벚꽃맞이 컨테스트](https://www.acmicpc.net/contest/view/402) 개최, 출제 (19.04)  
 * [제2회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/310) 출제 (18.07)  
 * [제2회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/303) 출제 (18.07)
-* [제1회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/242) 개최 (17.07)  
-* [제1회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/241) 개최 (17.07)
-* [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최 (17.04)
-* [머그컵](https://www.acmicpc.net/contest/view/213) 개최 (17.02)
+* [제1회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/242) 개최, 출제 (17.07)  
+* [제1회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/241) 개최, 출제 (17.07)
+* [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최, 출제 (17.04)
+* [머그컵](https://www.acmicpc.net/contest/view/213) 개최, 출제 (17.02)
 
 ---
 
@@ -44,7 +44,7 @@ tags: []
 ### 2019
 * [2019 ACM-ICPC Yokohama Reginal](https://icpc.iisf.or.jp/2019-yokohama/asia-yokohama-regional-contest-2019/?fbclid=IwAR2qIx7zUI7eunGRkRIOh83OJ3A-jllgHMTRzoOXrquHIsNt6j-e2S1tWV4) 41위 - baby shark~ dururu~ duru~ (19.11)  
 * [2019 ACM-ICPC Seoul Reginal](http://icpckorea.org/archives/1998) 21위(특별상) - bonin 1st sangsang-ham (19.11)  
-* [2019 ACM-ICPC Seoul Reginal Preliminary Contest](http://icpckorea.org/archives/1897) 31위 - bonin 1st sangsang-ham(19.10)  
+* [2019 ACM-ICPC Seoul Reginal Preliminary Contest](http://icpckorea.org/archives/1897) 31위 - bonin 1st sangsang-ham (19.10)  
 * [2019 Function Cup](https://oj.uz/contest/view/FUNCTIONCUP4) 26위 - 이 대회 미분 되나요? (19.09)  
 * [UCPC 2019 본선](https://www.acmicpc.net/contest/view/450) 20위 - 내니까 믿으니까 개.잘.하.니.까 (19.08)  
 * [UCPC 2019 온라인 예선](https://www.acmicpc.net/contest/view/449) 23위 - 내니까 믿으니까 개.잘.하.니.까 (19.07)  
@@ -86,7 +86,7 @@ tags: []
 * 선린인터넷고등학교 소프트웨어과 자료구조 강사 (18.05 - 18.06)  
 .  
 * 선린인터넷고등학교 교육봉사 동아리 Hello! Coding 강사 (2016 - 2017)
-.
+.  
 * 기타 비공식
 
 ---
@@ -94,7 +94,7 @@ tags: []
 ## 관심
 
 * Problem Solving
-* Drink
+* Drink
 
 ---
 
