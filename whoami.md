@@ -9,15 +9,12 @@ excerpt: 욱제를 소개합니다.
 tags: []
 ---
 
-## 과외와 강의합니다: [여기를 누르세요](http://wookje.dance/2017/11/17/과외/)
-
----
-
 ## 정보
 
 * 권욱제
 * 선린인터넷고등학교 정보통신과 졸업 (18.02)
 * 숭실대학교 컴퓨터학부 입학 (18.03)
+* [마인즈랩](https://mindslab.ai/kr) 근무 (19.12 ~)
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
 * [Code Forces](http://codeforces.com/profile/wo_okje)
@@ -26,6 +23,7 @@ tags: []
 
 ## 대회 운영
 
+* [Good Bye, BOJ 2019!](https://www.acmicpc.net/contest/view/497) 출제 (19.12)
 * [2019 선린 정보 알고리즘경시대회](https://www.acmicpc.net/contest/view/456) 출제 (19.08)  
 * [2019 숭고한 연합 Algorithm Camp Contest](https://www.acmicpc.net/contest/view/448) 출제 (19.08)  
 * [제3회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/438) 출제 (19.07)  
