@@ -16,7 +16,7 @@ sitemap:
 
 wookje.happy@gmail.com 또는 개인적으로 연락 주세요
 
-## Include 인클루드
+## include 인클루드
 
 ```cpp
 // http://wookje.dance/library/
@@ -58,7 +58,7 @@ using pii = pair<int,int>;
 using pll = pair<ll,ll>;
 using vi = vector<int>;
 ll gcd(ll a, ll b){return b?gcd(b,a%b):a;}
-ll lcm(ll a, ll b) {if(!a||!b)return a+b;return a*(b/gcd(a,b));}
+ll lcm(ll a, ll b) {if(!a||!b)return 0;return a*(b/gcd(a,b));}
 pll ext_gcd(ll a, ll b){
     if (b == 0) return { 1,0 };
     auto t = ext_gcd(b, a%b);
@@ -71,15 +71,9 @@ struct point {
         return x == a.x ? y < a.y : x < a.x;
     }
 };
-struct edg {
-    int idx; ll dst;
-    bool operator <(edg a)const {
-        return dst > a.dst;
-    }
-};
 
 const int powmod = 1e9+7;
-ll mypow(ll base, ll exp) {
+ll fast_pow(ll base, ll exp) {
     if (base == 1) return 1;
     ll ans = 1;
     while (exp) {
@@ -267,138 +261,190 @@ TODO
 
 ```cpp
 #include <vector>
+#include <algorithm>
 #include <queue>
 #include <cstring>
 using namespace std;
 typedef long long ll;
-const int n_ = 700+7;
-
-struct edg {
-    int idx, cap, rev;
-};
-vector<edg> gph[n_];
-int n, cur[n_], lvl[n_];
-
-void addEdge(int u, int v, int k) {
-    gph[u].push_back({ v,k,gph[v].size() });
-    gph[v].push_back({ u,0,gph[u].size()-1 });
-}
-
-bool bfs(int src, int snk) {
-    queue<int> que;
-    memset(lvl, -1, sizeof(lvl));
-
-    lvl[src] = 0;
-    que.push(src);
-    while (!que.empty()) {
-        int now = que.front(); que.pop();
-        for (edg nxt : gph[now]) {
-            if (nxt.cap > 0 && lvl[nxt.idx] == -1) {
-                lvl[nxt.idx] = lvl[now]+1;
-                que.push(nxt.idx);
-            }
-        }
+const int MAXN = 3333; // !!! enough MAXN required: src=MAXN-4, snk=MAXN-3 !!!
+struct dinic {
+    int n, src, snk;
+    int lr_src, lr_snk, lr_lsum; // !!! use this IFF use L-R flow !!!
+    int cur[MAXN], lvl[MAXN];
+    struct edg { int idx, cap, rev; };
+    vector<edg> gph[MAXN];
+    void add_edge(int u, int v, int k) {
+        gph[u].push_back({ v,k,(int)gph[v].size() });
+        gph[v].push_back({ u,0,(int)gph[u].size()-1 });
     }
-    return lvl[snk] != -1;
-}
-
-ll dfs(int now, int snk, int flw) {
-    if (now == snk) return flw;
-    for (int &i = cur[now]; i < gph[now].size(); i++) {
-        edg &nxt = gph[now][i];
-        if (nxt.cap > 0 && lvl[nxt.idx] == lvl[now]+1) {
-            ll ret = dfs(nxt.idx, snk, min(nxt.cap, flw));
-            if (ret > 0) {
-                nxt.cap -= ret;
-                gph[nxt.idx][nxt.rev].cap += ret;
-                return ret;
-            }
-        }
+    // !!! use this IFF use L-R flow !!!
+    void add_lr_edge(int u, int v, int l, int r) {
+        add_edge(lr_src, v, l);
+        add_edge(u, lr_snk, l);
+        add_edge(u, v, r-l);
+        lr_lsum += l;
     }
-    return 0;
-}
-
-ll go(int src, int snk) {
-    ll dap = 0;
-    while (bfs(src, snk)) {
+    void init() {
         memset(cur, 0, sizeof(cur));
-        ll ret;
-        while (ret = dfs(src, snk, 2e9)) {
-            dap += ret;
-        }
+        memset(lvl, 0, sizeof(lvl));
+        for (int i = 0; i < MAXN; i++) gph[i].clear();
+        src = MAXN-4;
+        snk = MAXN-3;
+        lr_src = MAXN-2;
+        lr_snk = MAXN-1;
+        //add_edge(snk, src, 2e9); // !!! use this IFF use L-R flow !!!
     }
-    return dap;
+    dinic() {
+        init();
+    }
+    bool bfs(int src, int snk) {
+        queue<int> que;
+        memset(lvl, -1, sizeof(lvl));
+        lvl[src] = 0;
+        que.push(src);
+        while (!que.empty()) {
+            int now = que.front(); que.pop();
+            for (edg nxt : gph[now]) {
+                if (nxt.cap > 0 && lvl[nxt.idx] == -1) {
+                    lvl[nxt.idx] = lvl[now]+1;
+                    que.push(nxt.idx);
+                }
+            }
+        }
+        return lvl[snk] != -1;
+    }
+    ll dfs(int now, int snk, int flw) {
+        if (now == snk) return flw;
+        for (int &i = cur[now]; i < gph[now].size(); i++) {
+            edg &nxt = gph[now][i];
+            if (nxt.cap > 0 && lvl[nxt.idx] == lvl[now]+1) {
+                ll ret = dfs(nxt.idx, snk, min(nxt.cap, flw));
+                if (ret > 0) {
+                    nxt.cap -= ret;
+                    gph[nxt.idx][nxt.rev].cap += ret;
+                    return ret;
+                }
+            }
+        }
+        return 0;
+    }
+    ll match() {
+        ll dap = 0;
+        while (bfs(src, snk)) {
+            memset(cur, 0, sizeof(cur));
+            ll ret;
+            while (ret = dfs(src, snk, 2e9)) {
+                dap += ret;
+            }
+        }
+        return dap;
+    }
+    // !!! use this IFF use L-R flow !!!
+    bool lr_match() {
+        ll dap = 0;
+        while (bfs(lr_src, lr_snk)) {
+            memset(cur, 0, sizeof(cur));
+            ll ret;
+            while (ret = dfs(lr_src, lr_snk, 2e9)) {
+                dap += ret;
+            }
+        }
+        return (dap == lr_lsum); // true == L-R feasible
+    }
+} flow;
+```
+
+### LR Flow 엘알플로우
+
+정점 A에서 정점 B로, 하한 L, 상한 R인 간선이 있을 때 풀이법  
+
+(1) [ A→B 유량 L, 비용 -1인 간선 ], [ A→B 유량 R-L, 비용 0인 간선 ] 이후 mincost-maxflow  
+```cpp
+void add_edge(int u, int v, int l, int r) {
+    addEdge(u, v, l, -1);
+    addEdge(u, v, r - l, 0);
 }
 ```
 
+(2) [ 새로운 source → B, 유량 L ], [ A → 새로운 sink, 유량 L ], [ A → B, 유량 R-L ], [ 기존 sink → 기존 source, 유량 무한 ] 이후, [ 새로운 source → 새로운 sink ]의 최대 유량이 L의 합이 되는지 확인  
+```cpp
+디닉 코드 참조
+```
+
 ### MCMF 엠씨엠에프 (spfa)
+
+`O((V+E)f)`  
 
 ```cpp
 #include <vector>
 #include <algorithm>
 #include <queue>
 #include <cstring>
-const int src = 801;
-const int snk = 802;
-
-struct edg {
-    int idx, cap, cst, rev;
-};
-vector<edg> gph[888];
-int n, m;
-int prv_v[888], prv_e[888];
-
-void addEdge(int u, int v, int c) {
-    gph[u].push_back({v, 1, c, gph[v].size()});
-    gph[v].push_back({u, 0, -c, gph[u].size() - 1});
-}
-
-int dst[888], inq[888];
-bool spfa() {
-    memset(dst, 0x3f, sizeof(dst));
-    memset(inq, 0, sizeof(inq));
-    queue<int> que;
-    que.push(src);
-    inq[src] = 1;
-    dst[src] = 0;
-    while (!que.empty()) {
-        int now = que.front();
-        que.pop();
-        inq[now] = 0;
-        for (int i = 0; i < gph[now].size(); i++) {
-            edg &nxt = gph[now][i];
-            if (nxt.cap > 0 && dst[nxt.idx] > dst[now] + nxt.cst) {
-                dst[nxt.idx] = dst[now] + nxt.cst;
-                prv_v[nxt.idx] = now;
-                prv_e[nxt.idx] = i;
-                if (!inq[nxt.idx])
-                    que.push(nxt.idx), inq[nxt.idx] = 1;
+using namespace std;
+typedef long long ll;
+const int MAXN = 1111;
+struct mcmf {
+    int src, snk;
+    int prv_v[MAXN], prv_e[MAXN], dst[MAXN], inq[MAXN];
+    struct edg { int idx, cap, cst, rev; };
+    vector<edg> gph[MAXN];
+    void add_edge(int u, int v, int f, int c) {
+        gph[u].push_back({v, f, c, gph[v].size()});
+        gph[v].push_back({u, 0, -c, gph[u].size() - 1});
+    }
+    void init() {
+        memset(prv_v, 0, sizeof(prv_v));
+        memset(prv_e, 0, sizeof(prv_e));
+        for (int i = 0; i < MAXN; i++) gph[i].clear();
+        src = MAXN-2;
+        snk = MAXN-1;
+    }
+    mcmf() {
+        init();
+    }
+    bool spfa() {
+        memset(dst, 0x3f, sizeof(dst));
+        memset(inq, 0, sizeof(inq));
+        queue<int> que;
+        que.push(src);
+        inq[src] = 1;
+        dst[src] = 0;
+        while (!que.empty()) {
+            int now = que.front();
+            que.pop();
+            inq[now] = 0;
+            for (int i = 0; i < gph[now].size(); i++) {
+                edg &nxt = gph[now][i];
+                if (nxt.cap > 0 && dst[nxt.idx] > dst[now] + nxt.cst) {
+                    dst[nxt.idx] = dst[now] + nxt.cst;
+                    prv_v[nxt.idx] = now;
+                    prv_e[nxt.idx] = i;
+                    if (!inq[nxt.idx])
+                        que.push(nxt.idx), inq[nxt.idx] = 1;
+                }
             }
         }
+        return dst[snk] != 0x3f3f3f3f;
     }
-    return dst[snk] != 0x3f3f3f3f;
-}
-
-void gogogo() {
-    int dap_cst = 0, dap_flw = 0;
-    while (spfa()) {
-        int mn_flw = 2e9;
-        for (int now = snk; now != src; now = prv_v[now]) {
-            int prv = prv_v[now];
-            int idx = prv_e[now];
-            mn_flw = min(mn_flw, gph[prv][idx].cap);
+    pair<int, int> match() {
+        int dap_cst = 0, dap_flw = 0;
+        while (spfa()) {
+            int mn_flw = 2e9;
+            for (int now = snk; now != src; now = prv_v[now]) {
+                int prv = prv_v[now], idx = prv_e[now];
+                mn_flw = min(mn_flw, gph[prv][idx].cap);
+            }
+            for (int now = snk; now != src; now = prv_v[now]) {
+                int prv = prv_v[now], idx = prv_e[now];
+                gph[prv][idx].cap -= mn_flw;
+                gph[now][gph[prv][idx].rev].cap += mn_flw;
+                dap_cst += mn_flw * gph[prv][idx].cst;
+            }
+            dap_flw += mn_flw;
         }
-        for (int now = snk; now != src; now = prv_v[now]) {
-            int prv = prv_v[now];
-            int idx = prv_e[now];
-            gph[prv][idx].cap -= mn_flw;
-            gph[now][gph[prv][idx].rev].cap += mn_flw;
-            dap_cst += mn_flw * gph[prv][idx].cst;
-        }
-        dap_flw += mn_flw;
+        return make_pair(dap_flw, dap_cst);
     }
-    printf("%d\n%d\n", dap_flw, dap_cst);
-}
+};
 ```
 
 ## 그래프 및 트리 Graph and Tree
@@ -429,6 +475,44 @@ int getLCA(int a, int b) {
     for (int i = d; i >= 0; i--) if (par[a][i] != par[b][i])
         a = par[a][i], b = par[b][i];
     return par[a][0];
+}
+int main() {
+    for (d = 1; (1 << d) <= n; d++); d--;
+    setLCA(1, 1);
+}
+```
+
+### LCA 트리에서 두 노드 사이의 거리
+
+```cpp
+#include <algorithm>
+#include <vector>
+using namespace std;
+const int n_ = 1e5 + 5;
+const int d_ = 17; // 2^d > n
+int n, m, d;
+int dph[n_], par[n_][d_];
+vector<int> gph[n_];
+void setLCA(int now, int cnt) {
+    dph[now] = cnt++;
+    for (int i = 1; i <= d; i++)
+        par[now][i] = par[par[now][i - 1]][i - 1];
+    for (auto nxt : gph[now]) if (!dph[nxt])
+        par[nxt][0] = now, setLCA(nxt, cnt);
+}
+int dst(int a, int b) {
+    int ret = 0;
+    if (dph[a] < dph[b]) swap(a, b);
+    for (int i = d; i >= 0; i--) if (dph[b] <= dph[par[a][i]]) {
+        a = par[a][i];
+        ret += (1<<i);
+    }
+    if (a == b) return ret;
+    for (int i = d; i >= 0; i--) if (par[a][i] != par[b][i]) {
+        a = par[a][i], b = par[b][i];
+        ret += (1<<i)*2;
+    }
+    return ret+2;
 }
 int main() {
     for (d = 1; (1 << d) <= n; d++); d--;
@@ -998,7 +1082,7 @@ int isCross(point a, point b, point c, point d) {
 
 ## Magic 흑마법
 
-### pbds
+### pbds BST
 
 ```cpp
 #include <ext/pb_ds/assoc_container.hpp>
