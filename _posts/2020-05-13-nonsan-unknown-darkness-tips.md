@@ -9,12 +9,12 @@ tags: [chat]
 ---  
   
   
-tncks0121(opens in new tab)  10:46 PM  
+tncks0121  10:46 PM  
 일단 훈련소 꿀팁 좀  
 10:46  
 내놔요  
   
-wookje(opens in new tab):sunglasses:  10:46 PM  
+wookje  10:46 PM  
 질병을  
 10:46  
 조사해 가세요  
@@ -25,14 +25,14 @@ wookje(opens in new tab):sunglasses:  10:46 PM
 10:46  
 가방은 큰 거 챙겨가고  
   
-xtalxlr(opens in new tab):sunglasses:  10:47 PM  
+xtalxlr  10:47 PM  
 소대장훈련병  
 10:47  
 분대장훈련병  
 10:47  
 절대하지마세요  
   
-wookje(opens in new tab):sunglasses:  10:47 PM  
+wookje  10:47 PM  
 세면장 청소 가능하면 하세요  
 10:47  
 배식 빠지는 게  
@@ -41,85 +41,85 @@ wookje(opens in new tab):sunglasses:  10:47 PM
 10:47  
 화장실은 뇌절이고  
   
-wookje(opens in new tab):sunglasses:  10:47 PM  
+wookje  10:47 PM  
 야외쓰레기는 차선  
 10:47  
 네  
   
-wookje(opens in new tab):sunglasses:  10:47 PM  
+wookje  10:47 PM  
 아무튼 배식 빠지는 거 있으면 무조건 하세요  
   
-wookje(opens in new tab):sunglasses:  10:48 PM  
+wookje  10:48 PM  
 화장실 빼고  
   
-wookje(opens in new tab):sunglasses:  10:48 PM  
+wookje  10:48 PM  
 그리고 질병 하나 조사해 가서  
 10:48  
 첨에 질환 종이에 적으라 하는데  
 10:48  
 거기 적으먄 소대장 면담하니까  
   
-wookje(opens in new tab):sunglasses:  10:48 PM  
+wookje  10:48 PM  
 그때 못박아두세요  
   
-xtalxlr(opens in new tab):sunglasses:  10:48 PM  
+xtalxlr  10:48 PM  
 욱제식 문제해결  
   
-wookje(opens in new tab):sunglasses:  10:49 PM  
+wookje  10:49 PM  
 책은 많이 챙겨가세요  
   
-wookje(opens in new tab):sunglasses:  10:49 PM  
+wookje  10:49 PM  
 커피 가져가면 인싸  
   
-august14(opens in new tab)  10:49 PM  
+august14  10:49 PM  
 왼발~  
   
-tncks0121(opens in new tab)  10:49 PM  
+tncks0121  10:49 PM  
 오 커피..  
   
-august14(opens in new tab)  10:49 PM  
+august14  10:49 PM  
 저때는  
   
-august14(opens in new tab)  10:49 PM  
+august14  10:49 PM  
 포카리스웨트분말  
 10:49  
 가져온사람이인싸엿음  
   
-tncks0121(opens in new tab)  10:49 PM  
+tncks0121  10:49 PM  
 그걸 어떻게 안들키고  
   
-xtalxlr(opens in new tab):sunglasses:  10:49 PM  
+xtalxlr  10:49 PM  
 ㄹㅇ 핫아이템  
   
-tncks0121(opens in new tab)  10:49 PM  
+tncks0121  10:49 PM  
 갖고다니는걸까요  
 10:49  
 알수가없네요  
   
-august14(opens in new tab)  10:49 PM  
+august14  10:49 PM  
 검사를  
 10:49  
 안해서..  
   
-wookje(opens in new tab):sunglasses:  10:50 PM  
+wookje  10:50 PM  
 저는 했어요  
 10:50  
 다만 하다가 누가 부르면 하다 말고  
 10:50  
 넘어감  
   
-xtalxlr(opens in new tab):sunglasses:  10:50 PM  
+xtalxlr  10:50 PM  
 ㅋㅋㅋㅋㅋ  
   
-wookje(opens in new tab):sunglasses:  10:50 PM  
+wookje  10:50 PM  
 팁은 질병 조사랑 배식 말고는  
 10:50  
 별로 필요 앖죠 ㅋ  
   
-tncks0121(opens in new tab)  10:50 PM  
+tncks0121  10:50 PM  
 잘확인했습니다  
   
-wookje(opens in new tab):sunglasses:  10:50 PM  
+wookje  10:50 PM  
 물티슈 면봉 필수  
 10:50  
 아 팬티 재수없으면 ㅈ같은 삼각 주니까  
@@ -128,12 +128,12 @@ wookje(opens in new tab):sunglasses:  10:50 PM
 10:51  
 입지 말라고 하는데 검사 못함  
   
-xtalxlr(opens in new tab):sunglasses:  10:51 PM  
+xtalxlr  10:51 PM  
 욱제님  
 10:51  
 꿀팁방출  
   
-wookje(opens in new tab):sunglasses:  10:51 PM  
+wookje  10:51 PM  
 의류랑 신발은  
 10:51  
 모두 사이즈업 하세요  
@@ -142,45 +142,45 @@ wookje(opens in new tab):sunglasses:  10:51 PM
 10:51  
 저처럼 마스크자국 남고 탑니다  
   
-xtalxlr(opens in new tab):sunglasses:  10:52 PM  
+xtalxlr  10:52 PM  
 ㄹㅇ 다 들으니까  
 10:52  
 꿀팁이네  
   
-wookje(opens in new tab):sunglasses:  10:52 PM  
+wookje  10:52 PM  
 칫솔은 개싸구려라 잘 안 닦이니까 챈기는 거 추천  
   
-tncks0121(opens in new tab)  10:52 PM  
+tncks0121  10:52 PM  
 질병이 개신박하네요  
   
-wookje(opens in new tab):sunglasses:  10:52 PM  
+wookje  10:52 PM  
 그리고 의무실 신청하면 언제 가게 되는지 오전인지 오후인지 보고  
   
-xtalxlr(opens in new tab):sunglasses:  10:52 PM  
+xtalxlr  10:52 PM  
 아 가방은 캐리어나 큰 가방 들고가세요  
 :o:  
 1  
   
   
-wookje(opens in new tab):sunglasses:  10:53 PM  
+wookje  10:53 PM  
 이 훈련은 오후에 의무과 가면  
 10:53  
 오전에 중대장 차 타고 오겠다  
   
-xtalxlr(opens in new tab):sunglasses:  10:53 PM  
+xtalxlr  10:53 PM  
 나중에 군복다 챙겨가야함  
   
-wookje(opens in new tab):sunglasses:  10:53 PM  
+wookje  10:53 PM  
 싶으면 잘 설계하세요  
   
-tncks0121(opens in new tab)  10:53 PM  
+tncks0121  10:53 PM  
 신청 그냥 “저 아파요” 하면  
 10:53  
 되는건가요?  
 10:53  
 전날에?  
   
-wookje(opens in new tab):sunglasses:  10:53 PM  
+wookje  10:53 PM  
 의무과는  
 10:53  
 매일 조사해요  
@@ -191,46 +191,46 @@ wookje(opens in new tab):sunglasses:  10:53 PM
 10:53  
 귀마개는 2개 챙기고  
   
-tncks0121(opens in new tab)  10:54 PM  
+tncks0121  10:54 PM  
 안대는 필요?  
   
-wookje(opens in new tab):sunglasses:  10:54 PM  
+wookje  10:54 PM  
 그건 딱히  
   
-tncks0121(opens in new tab)  10:54 PM  
+tncks0121  10:54 PM  
 귀마개 지금 4쌍 있네요 ㅋ  
   
-wookje(opens in new tab):sunglasses:  10:54 PM  
+wookje  10:54 PM  
 또 뭐 잇지  
   
-xtalxlr(opens in new tab):sunglasses:  10:55 PM  
+xtalxlr  10:55 PM  
 수찬님  
 10:55  
 수학문제  
 10:55  
 좋아하세요?  
   
-tncks0121(opens in new tab)  10:55 PM  
+tncks0121  10:55 PM  
 재밌으면  
 10:55  
 좋아하겠죠  
   
-wookje(opens in new tab):sunglasses:  10:55 PM  
+wookje  10:55 PM  
 대충 눈치 살살 보면서  
 10:55  
 아니꼬우면 중대장이나 소대장한테 찌르세요 ㅋ  
   
-wookje(opens in new tab):sunglasses:  10:55 PM  
+wookje  10:55 PM  
 마편 개꿀  
   
-tncks0121(opens in new tab)  10:55 PM  
+tncks0121  10:55 PM  
 선생님..  
 10:55  
 그걸못참아서 (edited)   
 10:55  
 마편썼어요?  
   
-wookje(opens in new tab):sunglasses:  10:55 PM  
+wookje  10:55 PM  
 엌ㅋㅋㅋ  
 10:56  
 저는 안 썼는데  
@@ -241,32 +241,32 @@ px에서 산 하리보에 점 있다고
 10:56  
 . (edited)   
   
-tncks0121(opens in new tab)  10:56 PM  
+tncks0121  10:56 PM  
 오..  
   
-xtalxlr(opens in new tab):sunglasses:  10:56 PM  
+xtalxlr  10:56 PM  
 ㅋㅋㅋㅋㅋ  
   
-tncks0121(opens in new tab)  10:56 PM  
+tncks0121  10:56 PM  
 와 진짜 준비 덜 됐네  
 10:56  
 :blobthinking:  
 10:56  
 이걸어케가  
   
-wookje(opens in new tab):sunglasses:  10:57 PM  
+wookje  10:57 PM  
 팬티 질병 배식  
 10:57  
 3개만 알면 되죠 ㅋ  
   
-wookje(opens in new tab):sunglasses:  10:57 PM  
+wookje  10:57 PM  
 그리고 아마 코로나가 still hot이면  
 10:57  
 보충 교육 안 하니까  
 10:57  
 적당히 빠져도 됨  
   
-wookje(opens in new tab):sunglasses:  10:58 PM  
+wookje  10:58 PM  
 영점사격은 오전에 통과하면 가서 쉬고 아니면 오후에 또 쏘고요  
 10:58  
 각개는 디스크나 질병 있으면  
@@ -275,30 +275,30 @@ wookje(opens in new tab):sunglasses:  10:58 PM
 10:58  
 열외임  
   
-tncks0121(opens in new tab)  10:59 PM  
+tncks0121  10:59 PM  
 역시 :wookje3: 이예요 :blobaww:  
 11:01  
 20200513_230028.jpg   
 20200513_230028.jpg  
-(opens in new tab)  
+  
   
   
 11:01  
 훈수받습니다  
   
-wookje(opens in new tab):sunglasses:  11:01 PM  
+wookje  11:01 PM  
 수건 빼고  
 11:01  
 저 파란 가방은 뭐죠  
   
-tncks0121(opens in new tab)  11:01 PM  
+tncks0121  11:01 PM  
 그냥 가방이요  
 11:01  
 장바구니  
 11:01  
 롯데마트에서 500원 주고 삼 (edited)   
   
-wookje(opens in new tab):sunglasses:  11:02 PM  
+wookje  11:02 PM  
 우산은 어차피 판초우의라 필요 없고  
 11:02  
 밴드류나 상비약은 저는 1도 안 썼고  
@@ -307,14 +307,14 @@ wookje(opens in new tab):sunglasses:  11:02 PM
 11:02  
 군화 불편하명 활동화 신으세요  
   
-tncks0121(opens in new tab)  11:02 PM  
+tncks0121  11:02 PM  
 :blobaww: (edited)   
 11:03  
 전파오후라  
 11:03  
 아프다하면믿어줄거같네요  
   
-wookje(opens in new tab):sunglasses:  11:03 PM  
+wookje  11:03 PM  
 세탁망은 가면 2개나 주고요  
 11:03  
 비닐류는 딱히 필요 없고  
@@ -325,7 +325,7 @@ wookje(opens in new tab):sunglasses:  11:03 PM
 11:04  
 가면 10권 넘게 읽기 쌉가능  
   
-tncks0121(opens in new tab)  11:04 PM  
+tncks0121  11:04 PM  
 없는데  
 11:04  
 지금수중에 책이  
@@ -334,13 +334,13 @@ tncks0121(opens in new tab)  11:04 PM
 11:04  
 정도인가  
   
-wookje(opens in new tab):sunglasses:  11:04 PM  
+wookje  11:04 PM  
 기술챡이라도 가져가세요  
   
-tncks0121(opens in new tab)  11:04 PM  
+tncks0121  11:04 PM  
 서고 보러 가야겠네요  
   
-wookje(opens in new tab):sunglasses:  11:04 PM  
+wookje  11:04 PM  
 진짜 할 일 없음 주말에  
 11:04  
 종교도 안 할 거고  
@@ -349,14 +349,14 @@ wookje(opens in new tab):sunglasses:  11:04 PM
 11:05  
 저 나오기 전날에 에프킬라 세팅하던데  
   
-wookje(opens in new tab):sunglasses:  11:06 PM  
+wookje  11:06 PM  
 그리고 동기들 대화 수준이  
 11:06  
 생각보다 많이 낮으므로  
 11:06  
 뇌절 후 명상이 필요함  
   
-wookje(opens in new tab):sunglasses:  11:07 PM  
+wookje  11:07 PM  
 재밌는 소설 가져가면  
 11:07  
 바꿔읽기 인싸 가능  
@@ -367,46 +367,46 @@ wookje(opens in new tab):sunglasses:  11:07 PM
 11:07  
 많이 사가세오  
   
-wookje(opens in new tab):sunglasses:  11:08 PM  
+wookje  11:08 PM  
 편지 봉투는 생활관에 없고 편지지는 개많음 (edited)   
   
-ainta(opens in new tab):ojuz:  11:08 PM  
+ainta:ojuz:  11:08 PM  
 인싸되겠네요  
 11:08  
 ㅋㅋ루  
   
-tncks0121(opens in new tab)  11:10 PM  
+tncks0121  11:10 PM  
 편지 보내면  
 11:10  
 잘 가요?  
 11:10  
 부대에서 안 빠져나간다는데  
   
-wookje(opens in new tab):sunglasses:  11:10 PM  
+wookje  11:10 PM  
 그거 중대장 마편 쓰면  
 11:10  
 잘 걷어가요  
   
-tncks0121(opens in new tab)  11:10 PM  
+tncks0121  11:10 PM  
 :blobfearful:  
   
-wookje(opens in new tab):sunglasses:  11:11 PM  
+wookje  11:11 PM  
 저는 2주일에 걸쳐서 쓴 익일특급 편지 3개가  
 11:11  
 같은 날 도착했던데  
 11:11  
 누가 마편 쓰더니 바로 걷어감  
   
-tncks0121(opens in new tab)  11:11 PM  
+tncks0121  11:11 PM  
 그렇군요..  
   
-junie(opens in new tab):night_with_stars:  11:12 PM  
+junie  11:12 PM  
 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ  
   
-tncks0121(opens in new tab)  11:13 PM  
+tncks0121  11:13 PM  
 Image from iOS   
 Image from iOS  
-(opens in new tab)  
+  
   
   
 11:13  
@@ -414,7 +414,7 @@ Image from iOS
 11:13  
 6선  
   
-wookje(opens in new tab):sunglasses:  11:13 PM  
+wookje  11:13 PM  
 저거 2주차면  
 11:13  
 다 읽음 ㅋ  
@@ -425,16 +425,16 @@ wookje(opens in new tab):sunglasses:  11:13 PM
 11:14  
 의무실 가서 목발이나 깁스 받아오면 개꿀 (edited)   
   
-junie(opens in new tab):night_with_stars:  11:14 PM  
+junie  11:14 PM  
 현역산기도 같이 훈련소가요?  
   
-wookje(opens in new tab):sunglasses:  11:14 PM  
+wookje  11:14 PM  
 네  
   
-junie(opens in new tab):night_with_stars:  11:14 PM  
+junie  11:14 PM  
 오 대박  
   
-wookje(opens in new tab):sunglasses:  11:14 PM  
+wookje  11:14 PM  
 들어가면 님이 김준원이 맞는지  
 11:14  
 관심 없고  
@@ -443,77 +443,77 @@ wookje(opens in new tab):sunglasses:  11:14 PM
 11:15  
 궁금해 해요  
   
-junie(opens in new tab):night_with_stars:  11:15 PM  
+junie  11:15 PM  
 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ  
 11:15  
 없는사람도 있어요?  
 11:15  
 신검했으면 받는거아님?  
   
-wookje(opens in new tab):sunglasses:  11:15 PM  
+wookje  11:15 PM  
 아무튼  
 11:15  
 대리 씹가능이란 뜻이므로  
 11:15  
 졸라 허술하니 눈치껏 써먹으란 뜻  
   
-junie(opens in new tab):night_with_stars:  11:15 PM  
+junie  11:15 PM  
 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ  
   
-tncks0121(opens in new tab)  11:15 PM  
+tncks0121  11:15 PM  
 그럼 저 대신 가세요  
   
-junie(opens in new tab):night_with_stars:  11:15 PM  
+junie  11:15 PM  
 제 훈련소 님이 대리하는거  
 11:15  
 어떰  
   
-wookje(opens in new tab):sunglasses:  11:15 PM  
+wookje  11:15 PM  
 ㅋ  
 11:15  
 ㅗ  
   
-ainta(opens in new tab):ojuz:  11:16 PM  
+ainta:ojuz:  11:16 PM  
 멤책을  
 11:17  
 가져가네  
 11:17  
 :blobfacepalm:  
   
-wookje(opens in new tab):sunglasses:  11:17 PM  
+wookje  11:17 PM  
 아 훈련 열외나 차등에 적극적인 건 부대마다 다르므로 안 된다고 하면 (edited)   
 11:17  
 내가 사회에 나가서 목에 견인기 달고 일해야 좋으세요?  
 11:17  
 라고 하면 됨  
   
-tncks0121(opens in new tab)  11:18 PM  
+tncks0121  11:18 PM  
 오..  
   
-wookje(opens in new tab):sunglasses:  11:20 PM  
+wookje  11:20 PM  
 px 가면 과자 애들이 졸라 많이 사고 남으니까  
 11:20  
 1리터짜리 하늘보리 같은 거 사세요  
 11:20  
 실전팁 다 뿌렸다  
   
-wookje(opens in new tab):sunglasses:  11:21 PM  
+wookje  11:21 PM  
 보조배터리는 옵션  
 11:21  
 나올 때 배터리 없음 ㅎ  
   
-junie(opens in new tab):night_with_stars:  11:22 PM  
+junie  11:22 PM  
 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ  
 11:22  
 ㄹㅇ 생활밀착팁이네  
   
-tncks0121(opens in new tab)  11:22 PM  
+tncks0121  11:22 PM  
 ㄹㅇㅋㅋ  
   
-junie(opens in new tab):night_with_stars:  11:22 PM  
+junie  11:22 PM  
 하늘보리말고 환타나 포카리같은 건 없어요?  
   
-wookje(opens in new tab):sunglasses:  11:22 PM  
+wookje  11:22 PM  
 있는데요  
 11:22  
 그거는 부식으로  
@@ -532,12 +532,12 @@ wookje(opens in new tab):sunglasses:  11:22 PM
 11:23  
 밥은 다 버리세요  
   
-tncks0121(opens in new tab)  11:24 PM  
+tncks0121  11:24 PM  
 전투식량을 줘요?  
 11:24  
 고건몰랐네  
   
-wookje(opens in new tab):sunglasses:  11:24 PM  
+wookje  11:24 PM  
 네  
 11:24  
 영외훈련 가면 종종 쥬는데  
@@ -557,68 +557,68 @@ wookje(opens in new tab):sunglasses:  11:24 PM
 2  
   
   
-tncks0121(opens in new tab)  11:27 PM  
+tncks0121  11:27 PM  
 zzzz  
 11:27  
 중복아닌팁  
 11:27  
 개많네  
   
-wookje(opens in new tab):sunglasses:  11:29 PM  
+wookje  11:29 PM  
 a급인 척 하거나 군인들과 친하게 지내면  
 11:30  
 일만 늘고 개손해니까 무조건 아닥  
   
-tncks0121(opens in new tab)  11:30 PM  
+tncks0121  11:30 PM  
 파오후 아싸라서 못해요 ㅋㅋ  
   
-wookje(opens in new tab):sunglasses:  11:30 PM  
+wookje  11:30 PM  
 그리고 복명복창 목소리 안 내도 됨  
   
-tncks0121(opens in new tab)  11:30 PM  
+tncks0121  11:30 PM  
 :blobfearful:  
 11:30  
 이걸안낸다  
   
-wookje(opens in new tab):sunglasses:  11:30 PM  
+wookje  11:30 PM  
 어차피 마스크 껴서 모르죠 ㅋ  
   
-junie(opens in new tab):night_with_stars:  11:30 PM  
+junie  11:30 PM  
 권욱제훈련병  
 11:30  
 장난해?  
   
-wookje(opens in new tab):sunglasses:  11:31 PM  
+wookje  11:31 PM  
 응아니야  
   
-koosaga(opens in new tab):segtree:  11:31 PM  
+koosaga:segtree:  11:31 PM  
 욱제  
 11:31  
 착실하게  
 11:31  
 은혜보답하네  
   
-wookje(opens in new tab):sunglasses:  11:31 PM  
+wookje  11:31 PM  
 엌ㅋㅋㅋ  
   
-koosaga(opens in new tab):segtree:  11:31 PM  
+koosaga:segtree:  11:31 PM  
 :blobthumbsup: :blobthumbsup: :blobthumbsup: :blobthumbsup:  
   
-wookje(opens in new tab):sunglasses:  11:31 PM  
+wookje  11:31 PM  
 아 이거 내일 업무시간에 정리해서  
 11:31  
 pdf 뿌려야지  
 11:31  
 ㅋ  
   
-tncks0121(opens in new tab)  11:31 PM  
+tncks0121  11:31 PM  
 ㅋ  
 11:31  
 지금 정리해서  
 11:31  
 뿌리도록하세요 ㅋ  
   
-wookje(opens in new tab):sunglasses:  11:31 PM  
+wookje  11:31 PM  
 ㅋ  
 11:33  
 아 무슨 담당 훈련병 있는디  
@@ -629,15 +629,15 @@ wookje(opens in new tab):sunglasses:  11:31 PM
 11:33  
 아무도 안 해서 나올 때까지 갈궈도 아닥  
   
-tncks0121(opens in new tab)  11:34 PM  
+tncks0121  11:34 PM  
 안 나대면 된다  
   
-wookje(opens in new tab):sunglasses:  11:34 PM  
+wookje  11:34 PM  
 네  
 11:34  
 소심한 무한이기주의 환자로 지내면 (edited)   
 11:34  
 됩니다  
   
-tncks0121(opens in new tab)  11:40 PM  
+tncks0121  11:40 PM  
 :blobaww:
