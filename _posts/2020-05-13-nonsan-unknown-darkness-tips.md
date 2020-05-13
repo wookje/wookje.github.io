@@ -41,42 +41,16 @@ wookje(opens in new tab):sunglasses:  10:47 PM
 10:47
 화장실은 뇌절이고
 
-xtalxlr(opens in new tab):sunglasses:  10:47 PM
-잉 배식 빼줬어요?
-
-tncks0121(opens in new tab)  10:47 PM
-심장신경성실신 :blobfearful:
-
 wookje(opens in new tab):sunglasses:  10:47 PM
 야외쓰레기는 차선
 10:47
 네
 
-xtalxlr(opens in new tab):sunglasses:  10:47 PM
-거긴 또 다르네
-
-tncks0121(opens in new tab)  10:47 PM
-배식을 빼준다니 :blobfearful:
-
-xtalxlr(opens in new tab):sunglasses:  10:47 PM
-우리는 다 했어요 걍
-
 wookje(opens in new tab):sunglasses:  10:47 PM
 아무튼 배식 빠지는 거 있으면 무조건 하세요
 
-tncks0121(opens in new tab)  10:48 PM
-좋아요
-
-xtalxlr(opens in new tab):sunglasses:  10:48 PM
-ㄹㅇ
-
 wookje(opens in new tab):sunglasses:  10:48 PM
 화장실 빼고
-
-tncks0121(opens in new tab)  10:48 PM
-(화장실, 배식) 구간에서
-10:48
-잘해보죠
 
 wookje(opens in new tab):sunglasses:  10:48 PM
 그리고 질병 하나 조사해 가서
@@ -85,44 +59,14 @@ wookje(opens in new tab):sunglasses:  10:48 PM
 10:48
 거기 적으먄 소대장 면담하니까
 
-xtalxlr(opens in new tab):sunglasses:  10:48 PM
-ㅋㅋㅋㅋㅋㅋㅋ
-
 wookje(opens in new tab):sunglasses:  10:48 PM
 그때 못박아두세요
 
-tncks0121(opens in new tab)  10:48 PM
-:blobfearful:
-10:48
-이걸벼락치기
-
 xtalxlr(opens in new tab):sunglasses:  10:48 PM
 욱제식 문제해결
-10:48
-수찬님 내일이에요?
-
-tncks0121(opens in new tab)  10:49 PM
-네
-
-wookje(opens in new tab):sunglasses:  10:49 PM
-나머진 뭐 가면 알게 돼요
-
-tncks0121(opens in new tab)  10:49 PM
-소대장면담이라
-10:49
-좀무섭네요
-
-xtalxlr(opens in new tab):sunglasses:  10:49 PM
-ㄷㄷ
 
 wookje(opens in new tab):sunglasses:  10:49 PM
 책은 많이 챙겨가세요
-
-xtalxlr(opens in new tab):sunglasses:  10:49 PM
-군화 조임끈
-
-august14(opens in new tab)  10:49 PM
-왼발~
 
 wookje(opens in new tab):sunglasses:  10:49 PM
 커피 가져가면 인싸
@@ -135,9 +79,6 @@ tncks0121(opens in new tab)  10:49 PM
 
 august14(opens in new tab)  10:49 PM
 저때는
-
-xtalxlr(opens in new tab):sunglasses:  10:49 PM
-있으ㅕㄴ 편하긴한데
 
 august14(opens in new tab)  10:49 PM
 포카리스웨트분말
@@ -159,9 +100,6 @@ august14(opens in new tab)  10:49 PM
 검사를
 10:49
 안해서..
-
-xtalxlr(opens in new tab):sunglasses:  10:50 PM
-ㅇㅇㅇㅇ
 
 wookje(opens in new tab):sunglasses:  10:50 PM
 저는 했어요
@@ -282,9 +220,6 @@ wookje(opens in new tab):sunglasses:  10:55 PM
 10:55
 아니꼬우면 중대장이나 소대장한테 찌르세요 ㅋ
 
-xtalxlr(opens in new tab):sunglasses:  10:55 PM
-:blobokhand:
-
 wookje(opens in new tab):sunglasses:  10:55 PM
 마편 개꿀
 
@@ -324,35 +259,12 @@ wookje(opens in new tab):sunglasses:  10:57 PM
 10:57
 3개만 알면 되죠 ㅋ
 
-xtalxlr(opens in new tab):sunglasses:  10:57 PM
-근데
-10:57
-ㄹㅇ 몸만가도
-10:57
-다 주긴 줘요
-
-tncks0121(opens in new tab)  10:57 PM
-몸만 가도 고된 생존이
-10:57
-가능해야죠
-
 wookje(opens in new tab):sunglasses:  10:57 PM
 그리고 아마 코로나가 still hot이면
 10:57
 보충 교육 안 하니까
 10:57
 적당히 빠져도 됨
-
-tncks0121(opens in new tab)  10:58 PM
-https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=101&oid=008&aid=0004408207
-news.naver.comnews.naver.com
-정은경 "훈련소 입소시 코로나19 진단검사, 국방부와 기획 중"(opens in new tab)
-[머니투데이 지영호 기자] 이태원 클럽 사례를 계기로 10~20대 코로나19(신종 코로나바이러스감염증) 확진자가 늘어나자 정부가 청년들의 감염 노출 상황을 파악하기 위해 훈련소에 입소하는 훈련병을 대상으로 진단검사를(228 kB)
-https://imgnews.pstatic.net/image/008/2020/05/13/0004408207_001_20200513152803052.jpg
-10:58
-저는 이 이벤트
-10:58
-손꼽아기다리고있어요
 
 wookje(opens in new tab):sunglasses:  10:58 PM
 영점사격은 오전에 통과하면 가서 쉬고 아니면 오후에 또 쏘고요
@@ -362,26 +274,6 @@ wookje(opens in new tab):sunglasses:  10:58 PM
 안 엎드리거나
 10:58
 열외임
-
-tncks0121(opens in new tab)  10:58 PM
-전 오후에 또 쏘겠네요
-10:58
-:blobsad:
-
-wookje(opens in new tab):sunglasses:  10:58 PM
-그거
-10:58
-시키는대로 하면
-10:58
-또 안 쏴요
-
-tncks0121(opens in new tab)  10:58 PM
-시키는 대로 하다니
-
-wookje(opens in new tab):sunglasses:  10:58 PM
-근데 눈이 나쁘면 표적이 안 보여서
-10:59
-또 쏴요
 
 tncks0121(opens in new tab)  10:59 PM
 역시 :wookje3: 이예요 :blobaww:
@@ -457,30 +349,12 @@ wookje(opens in new tab):sunglasses:  11:04 PM
 11:05
 저 나오기 전날에 에프킬라 세팅하던데
 
-tncks0121(opens in new tab)  11:05 PM
-아 맞아
-11:05
-그거안샀어요
-11:05
-리마인더감사
-
 wookje(opens in new tab):sunglasses:  11:06 PM
 그리고 동기들 대화 수준이
 11:06
 생각보다 많이 낮으므로
 11:06
 뇌절 후 명상이 필요함
-
-tncks0121(opens in new tab)  11:06 PM
-Image from iOS 
-Image from iOS
-(opens in new tab)
-
-
-11:06
-여기서골라야하는군요
-11:06
-노답인뎅
 
 wookje(opens in new tab):sunglasses:  11:07 PM
 재밌는 소설 가져가면
@@ -492,25 +366,6 @@ wookje(opens in new tab):sunglasses:  11:07 PM
 우체국 들려서 우표 익일특급
 11:07
 많이 사가세오
-
-ainta(opens in new tab):ojuz:  11:08 PM
-인싸되면
-11:08
-좋아요?
-
-wookje(opens in new tab):sunglasses:  11:08 PM
-바꿔 읽으면
-
-tncks0121(opens in new tab)  11:08 PM
-"바꿔읽기 인싸"
-11:08
-라잖아요
-
-wookje(opens in new tab):sunglasses:  11:08 PM
-본인이 이득이라고 할 수 있죠
-
-ainta(opens in new tab):ojuz:  11:08 PM
-라이트노벨 가져가면
 
 wookje(opens in new tab):sunglasses:  11:08 PM
 편지 봉투는 생활관에 없고 편지지는 개많음 (edited) 
@@ -642,39 +497,6 @@ px 가면 과자 애들이 졸라 많이 사고 남으니까
 11:20
 실전팁 다 뿌렸다
 
-ainta(opens in new tab):ojuz:  11:20 PM
-수찬님
-11:20
-내일이에요?
-
-tncks0121(opens in new tab)  11:20 PM
-네
-11:21
-오..
-11:21
-하늘보리..
-
-ainta(opens in new tab):ojuz:  11:21 PM
-난언제가지
-11:21
-:blobcry:
-
-tncks0121(opens in new tab)  11:21 PM
-월파끝나고
-
-ainta(opens in new tab):ojuz:  11:21 PM
-ㅋㅋ
-
-tncks0121(opens in new tab)  11:21 PM
-:blobsad:
-
-ainta(opens in new tab):ojuz:  11:21 PM
-그러면
-11:21
-인생이미
-11:21
-레전드넫
-
 wookje(opens in new tab):sunglasses:  11:21 PM
 보조배터리는 옵션
 11:21
@@ -688,15 +510,10 @@ junie(opens in new tab):night_with_stars:  11:22 PM
 tncks0121(opens in new tab)  11:22 PM
 ㄹㅇㅋㅋ
 
-wookje(opens in new tab):sunglasses:  11:22 PM
-어썸 논산에서 알려주는 것과
-
 junie(opens in new tab):night_with_stars:  11:22 PM
 하늘보리말고 환타나 포카리같은 건 없어요?
 
 wookje(opens in new tab):sunglasses:  11:22 PM
-중복 없다
-11:22
 있는데요
 11:22
 그거는 부식으로
