@@ -38,7 +38,7 @@ lateinit var resource: Resource
 val file = File(resource.uri)
 ```
 
-애써 Spring 컨테이너로 가져온 리소스를, 굳이 다시 uri를 찾아서 가져오는 멍청한 짓을 할 필요는 없죠... (본인이 했었음) 저려먼 파일 못 가져옵니다.
+애써 Spring 컨테이너로 가져온 리소스를, 굳이 다시 uri를 찾아서 가져오는 멍청한 짓을 할 필요는 없죠... (본인이 했었음) 저러면 `getResources()`랑 똑같아져서 파일 못 가져옵니다 (...)
 
 ## @Value를 포함하는 클래스는 Bean에 등록되어 있어야 합니다
 
