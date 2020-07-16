@@ -46,7 +46,7 @@ val file = object : ByteArrayResource(byteArray) {
 
 `ByteArrayResource`가 `AbstractResource`를 상속하고 있어서 더욱 더 이 주장에 강력함을 더할 수 있다(?)
 
-구글링에 의하면, (`ByteArray`로 객체를 생성했을 때 dist I/O가 발생하는지 여부를 떠나서) 일단 메모리에 오른 다음부터는 disk I/O를 여러번 실행하지 않는다고 한다.
+구글링에 의하면, (최초에 disk I/O가 발생하는지 여부를 떠나서) 일단 메모리에 오른 다음부터는 disk I/O를 여러번 실행하지 않는다고 한다.
 
 정리하면 내 주장은 '`ByteArray`로 `ByteArrayResource` 객체를 만들면 disk I/O가 0회 발생한다.'이고, 내 주장이 틀렸을 때의 가설은 '`ByteArray`로 `ByteArrayResource` 객체를 만들면 최초 생성시에 disk I/O가 1회 발생한다.'이다.
 
