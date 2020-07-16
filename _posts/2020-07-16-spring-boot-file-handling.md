@@ -16,7 +16,7 @@ tags: [spring-boot, kotlin, java]
 
 나는 `MultipartFile` 외에 다른 방법으로 파일을 받아본 적이 없어서 `Multipartfile`만 언급하겠다.
 
-`MultipartFile`을 수신하면, 서블릿은 이 파일을 물리적인 temp directory에 임시로 '저장'한다.
+`MultipartFile`을 수신하면, 서블릿은 이 파일을 disk의 temp directory에 임시로 '저장'한다.
 
 `MultipartFile`은 `Resource`를 member로 가지고 있고, `Resource`는 binary를 input stream을 통해 읽어 오는데, 서블릿은 binary를 disk에서 직접 읽는 구현체를 사용하는 것 같다. (그도 그럴 것이 서버 띄우는 머신이 어지간히 고사양 아닌 이상, 메모리에서 파일을 들고 있기는 좀 많이 부담스럽다.)
 
