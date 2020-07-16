@@ -17,9 +17,13 @@ lateinit var resource: Resource
 ## getResources() 함수와의 차이점
 
 `getResources()` 함수는 자바 내장 함수입니다. `(java.lang.ClassLoader.getResources)`  
-`getResources()`로 파일을 가져오면 ide상의 로컬 개발 환경에서 잘 돌아갈 수 있지만, jar를 뽑아서 실행할 때 경로가 바뀌기 때문에 아마 화가 나게 될 수도 있습니다.  
+
+`getResources()`로 파일을 가져오면 ide상의 로컬 개발 환경에서 잘 돌아갈 수 있지만, jar를 뽑아서 실행할 때 uri가 바뀌기 때문에 아마 화가 나게 될 수도 있습니다.  
+
 `getResources()`로 해도 잘 되는 경우도 있는데, 제가 했던 프로젝트의 경우는 잘 안 되었습니다. 코틀린이라 그런가?  
+
 반면 위에서는 spring annotation을 사용했기 때문에 스프링이 path를 관리해 줍니다.  
+
 그래서 jar를 서버에 올려서 실행할 때도 문제가 없(다고합)니다.  
 
 ## resources/static 에 넣으면 안 돼요  
