@@ -38,16 +38,22 @@ val file = object : ByteArrayResource(byteArray) {
 }
 ```
 
-이 경우에는 위와 같이 임시 객체를 만들어서 in-memory로 관리할 수 있다...고 추측한다. (솔직히 이거 디스크에 쓰면 에바지 ㅋㅋ)
+그런 경우에는 위와 같이 `ByteArrayResource`를 이용해서 in-memory로 관리할 수 있다...고 추측한다. (솔직히 이거 디스크에 쓰면 에바지 ㅋㅋ)
 
 구현체를 본 적이 없어서 저게 실제로는 disk에 임시로 저장하고 읽어오는 건지 뭔지는 잘 모른다.
 
-하지만 내 예상에는 binary를 메모리에 들고 있으면서, `ByteArrayInputStream`을 써서 memory에서 읽어오도록 되어 있을 것 같다.
+`ByteArrayResource`는 `getInputStream()`을 호출할 때마다 새로운 input stream을 뱉는다고 한다. 
+
+내 예상에는 binary를 메모리에 들고 있으면서, `ByteArrayInputStream`을 써서 memory에서 읽어오도록 되어 있을 것 같다.
 
 `ByteArrayResource`가 `AbstractResource`를 상속하고 있어서 이 주장이 조금 더 강력해진다(?)
 
-구글링에 의하면, (최초에 객체 생성시 disk I/O가 발생하는지 여부를 떠나서) 일단 메모리에 오른 다음부터는 disk I/O를 여러번 실행하지 않는다고 한다.
+그리고 (최초에 객체 생성시 disk I/O가 발생하는지 여부를 떠나서) 메모리에 오른 다음부터는 disk I/O가 여러번 발생하지 않는다고 한다.
 
 정리하면 내 주장은 '`ByteArray`로 `ByteArrayResource` 객체를 만들면 disk I/O가 0회 발생한다.'이고, 내 주장이 틀렸을 때의 가설은 '`ByteArray`로 `ByteArrayResource` 객체를 만들면 최초 생성시에 disk I/O가 1회 발생한다.'이다.
 
+내 주장이 맞다면 더 좋겠지만, 틀리더라도 최초 1회만 I/O가 발생하니 나쁠 건 없다.
+
 이 부분은 허위사실일 가능성이 있으므로 조심하자.
+
+(근데 이거 여러모로 메모리 누수에 조심해야 할 부분이 많아보인다)
