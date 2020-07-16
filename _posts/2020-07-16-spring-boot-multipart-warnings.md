@@ -1,9 +1,9 @@
 ---  
 layout: post  
-title: 'Spring Boot 프로젝트에서 DTO를 통해 File을 받을 때 주의점'  
+title: 'Spring Boot 프로젝트에서 DTO를 통해 MultipartFile을 받을 때 주의점'  
 author: wookje.kwon  
 comments: true  
-date: 2020-07-16 15:57  
+date: 2020-07-16 15:59  
 tags: [spring-boot, kotlin]  
   
 ---  
