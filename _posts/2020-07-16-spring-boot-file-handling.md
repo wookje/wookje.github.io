@@ -52,6 +52,8 @@ val file = object : ByteArrayResource(byteArray) {
 
 내 예상에는 binary를 메모리에 들고 있으면서, `ByteArrayInputStream`을 써서 memory에서 읽어오도록 되어 있을 것 같다.
 
+그런 방식이 아니라면 애초에 이 파일에 대한 meta-data를 생성자에서 더 요구했어야 한다.
+
 `ByteArrayResource`가 `AbstractResource`를 상속하고 있어서 이 주장이 조금 더 강력해진다(?)
 
 그리고 (최초에 객체 생성시 disk I/O가 발생하는지 여부를 떠나서) 메모리에 오른 다음부터는 disk I/O가 여러번 발생하지 않는다고 한다.
