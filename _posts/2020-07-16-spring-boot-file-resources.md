@@ -28,6 +28,14 @@ lateinit var resource: Resource
 `resources/static`에는 css 등의 스프링스러운 파일들을 스프링이 관리하고 있기 때문에 맘대로 사용할 수 없다고 합니다.  
 그래서 `resources/dir/file.ext`와 같이 경로를 바꿔서 해결했습니다.  
 
+## 불러온 Resource의 uri로 다시 File 객체를 만들면 안 됩니다
+
+```kotlin
+val file = File(resource.uri)
+```
+
+애써 Spring 컨테이너로 가져온 리소스를, 굳이 다시 uri를 찾아서 가져오는 멍청한 짓을 할 필요는 없죠... (본인이 했었음) 저려먼 파일 못 가져옵니다.
+
 ## @Value를 포함하는 클래스는 Bean에 등록되어 있어야 합니다
 
 Bean에 등록되지 않은 Class를 스프링 컨테이너가 관리해 주지 못하니까 당연합니다.  
