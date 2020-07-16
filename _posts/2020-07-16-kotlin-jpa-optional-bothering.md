@@ -18,16 +18,55 @@ interface SometingRepository : CrudRepository<Something, Long> {
 ```
 
 ```kotlin
-var entity = somethingRespoitory.findById(id);
+val entity = somethingRespoitory.findById(id);
 ```
 
 여기서 `entity`의 type은 `Optional<T>`이다. 왜냐면 interface가 `Optional<T> findById(ID var1);` 이따구로 생겼기 때문이다.  
 
-`Optional`로 뱉으면 어떤 문제가 벌어질까? 이 멍청한 interface의 가장 큰 문제는 `Optional<Something>`가 아니라, `Optional<Something?>`을 뱉는다는 점이다.  
+이 멍청한 interface는 `Optional<Something!>`를 뱉는다. 그러면 어떤 문제가 벌어질까?
+
+`entity.get()`으로 그 안에 들어있는 데이터를 가져올 수 있다.
+
+```java
+/**
+* If a value is present, returns the value, otherwise throws
+* {@code NoSuchElementException}.
+*
+* @apiNote
+* The preferred alternative to this method is {@link #orElseThrow()}.
+*
+* @return the non-{@code null} value described by this {@code Optional}
+* @throws NoSuchElementException if no value is present
+*/
+public T get() {
+    if (value == null) {
+        throw new NoSuchElementException("No value present");
+    }
+    return value;
+}
+```
+
+만약 find 결과가 없어서 반환할 게 없으면 null을 뱉는 게 아니고 Exception을 던져버린다.  
+
+```kotlin
+val data = somethingRepository.findById(id);
+```
+
+이렇게만 해도 충분했어야 할 코드가
+
+```kotlin
+val entity = somethingRespoitory.findById(id);
+val data: Something?
+try {
+    data = entity.get()
+} catch (e: Exception) {
+    logger.error("serious?")
+}
+```
+
+이따구로 되어버린다.  
 
 kotlin-java 100% 호환 정말 대단합니다 ^^;  
-
-이대로 코드를 작성하면, 물음표가 엄청나게 많은 호기심 가득한 코드를 짜게 될 수 있다. (혹은 느낌표가 가득한 자신감 넘치는 코드를 짜게 될 수도 있다.)
 
 그렇다고 `(1)`처럼 함수를 재정의 할 수도 없다. (오버라이딩도 안 됨)  
 
