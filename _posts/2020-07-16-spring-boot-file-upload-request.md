@@ -12,9 +12,13 @@ tags: [spring-boot, kotlin]
 
 `Content-Type`은 `multipart/form-data`이고, form-data를 보내므로 `@RequestBody` 같은 어노테이션을 붙이면 안 됩니다.  
 
-또, File 외에 primitive type의 fields를 함께 수신하고 싶어도 데이터 타입은 무조건 String입니다.  
+RFC 표준에서는 'client는 body를 같이 보내면 안 되고, server에서는 body가 있으면 무시해야 한다' 정도로 써있었던 것 같은데 정확히는 잘 기억이 안 나네요.  
 
-text만 받는 것이 http 표준인지는 잘 모르겠는데, 적어도 제가 작업했던 환경에서는 그랬고 저는 표준이나 표준 비슷한 거라고 알고 있었습니다.  
+아무튼 `@RequestBody` 어노테이션은 엄청 깐깐해서 body가 있으면 `Content-type: ??? not supported` 아마 이렇게 생긴? Exception를 뱉으면서 controller까지 보내지도 않습니다.  
+
+또, MultipartFile 외에 primitive type의 fields를 함께 수신하고 싶다면(파일이랑 json을 같이 보내는 등), 파일을 제외한 나머지 필드들의 타입은 무조건 text입니다.  
+
+text만 받는 것이 http 표준인지는 잘 모르겠는데, 적어도 제가 작업했던 환경에서는 그랬고 저는 표준이나 표준 비슷한 거라고 알고 있습니다.  
 
 찾아보니 표준([https://www.ietf.org/rfc/rfc2388.txt](https://www.ietf.org/rfc/rfc2388.txt))에 무조건 String이라고 명시되어 있지는 않긴 한데, client에서 정수를 보내고 server에서 정수형으로 받으면 값이 안 들어가고 `null`이 찍힙니다.  
 
