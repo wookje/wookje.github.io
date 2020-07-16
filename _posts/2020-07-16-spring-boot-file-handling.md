@@ -26,7 +26,7 @@ disk에 저장된 파일을 송신하는 경우라면, 송신할 때도 마찬�
 
 ## in-memory Resource 객체 생성하기
 
-어떤 api를 통해 binary를 획득해서 binary만 메모리에 들고 있거나, binary를 직접 generate 하는 등, in-memory binary를 파일 관련 객체로 관리하고 싶은 경우가 있다.
+어떤 api를 통해 binary를 획득해서 binary만 메모리에 들고 있거나, binary를 직접 generate 하는 등의 경우에, 이 binary를 in-memory 파일 객체로 관리하고 싶은 경우가 있다.
 
 하지만 이 경우에는 `File` class를 사용하면 disk I/O가 여러번 발생할 뿐더러, 여러 meta data를 직접 설정해줘야 해서 좀 까다롭다.
 
