@@ -29,7 +29,9 @@ lateinit var resource: Resource
 ## resources/static 에 넣으면 안 돼요  
 
 저는 `resources/static/dir/file.ext`와 같은 경로에 파일을 집어넣었다가 '왜 안 되지?' 하면서 고통 받았습니다.  
+
 `resources/static`에는 css 등의 스프링스러운 파일들을 스프링이 관리하고 있기 때문에 맘대로 사용할 수 없다고 합니다.  
+
 그래서 `resources/dir/file.ext`와 같이 경로를 바꿔서 해결했습니다.  
 
 ## 불러온 Resource의 uri로 다시 File 객체를 만들면 안 됩니다
