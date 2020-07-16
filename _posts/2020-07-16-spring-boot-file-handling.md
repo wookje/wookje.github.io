@@ -8,6 +8,12 @@ tags: [spring-boot, kotlin, java]
   
 ---  
 
+## dist I/O는 위험하다!
+
+우리 process의 자원만 의도한만큼 잡아먹는다면 아무 문제가 없지만, 만약 한 머신에서 여러 서버가 돌고 있다면?
+
+disk I/O는 머신 전체에 영향을 미치기 때문에 굉장히 신중해야 한다. 사실 그걸 떠나서 그냥 느리기도 하다.
+
 기본적으로, JVM 기반의 언어(Java, Kotlin)에서 사용하는 File 또는 Resource 관련 class들은 in-memory data를 관리하는 게 아니다.
 
 이러한 class들은 input stream을 이용해서 binary를 '읽어 오는' 작업과 그 파일의 메타 데이터를 '관리하는' 역할을 수행한다.
