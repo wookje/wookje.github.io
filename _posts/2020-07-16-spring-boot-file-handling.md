@@ -18,7 +18,7 @@ tags: [spring-boot, kotlin, java]
 
 `MultipartFile`을 수신하면, 서블릿이 이 파일을 물리적인 temp directory에 임시로 '저장'한다.
 
-왜냐면 `MultipartFile`은 `Resource`를 데이터로서 관리하고, `Resource`는 바이너리를 disk에서 읽어오는 class이기 때문이다. ('p이기 때문에 q이다'라는 주장은 아니다. 하나의 이유일 뿐이다.)
+왜냐면 `MultipartFile`은 `Resource`를 member로 가지고 있고, `Resource`는 바이너리를 disk에서 읽어 오기 때문이다. ('p이기 때문에 q이다'라는 주장은 아니다. 하나의 이유일 뿐이다.)
 
 다시 말해, 일단 파일을 수신하면 I/O가 무조건 발생한다.
 
