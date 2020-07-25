@@ -14,7 +14,8 @@ tags: []
 * 권욱제
 * 선린인터넷고등학교 정보통신과 15학번
 * 숭실대학교 컴퓨터학부 18학번
-* [마인즈랩](https://mindslab.ai/kr) 백엔드 개발자 (19.12 ~)
+* [riiid](https://www.riiid.co/ko/main) AIOps 엔지니어 (20.07 ~ 현재)
+* [마인즈랩](https://mindslab.ai/kr) 백엔드 개발자 (19.12 ~ 20.07)
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
 * [Code Forces](http://codeforces.com/profile/wo_okje)
