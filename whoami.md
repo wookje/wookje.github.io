@@ -24,6 +24,7 @@ tags: []
 
 ## 대회 운영
 
+* [2020 선린 정보 알고리즘경시대회](https://www.acmicpc.net/category/detail/2294) 출제 (20.08)
 * [제1회 논산 코드 페스티별](https://www.acmicpc.net/contest/view/507) 개최, 출제 (20.04)  
 * [Good Bye, BOJ 2019!](https://www.acmicpc.net/contest/view/497) 출제 (19.12)  
 * [2019 선린 정보 알고리즘경시대회](https://www.acmicpc.net/contest/view/456) 출제 (19.08)  
@@ -42,6 +43,10 @@ tags: []
 ---
 
 ## 대회 참가
+
+### 2020
+* [UCPC 2020 본선](https://www.acmicpc.net/contest/view/524) 30위 - 애기욱제쟝 공익 아니에얌-ㅅ-! 훈련소 갖다왔서얌!! (20.08)
+* [UCPC 2020 예선](https://www.acmicpc.net/contest/view/521) 34위 - 애기욱제쟝 공익 아니에얌-ㅅ-! 훈련소 갖다왔서얌!! (20.07)
 
 ### 2019
 * [2019 ACM-ICPC Yokohama Reginal](https://icpc.iisf.or.jp/2019-yokohama/asia-yokohama-regional-contest-2019/?fbclid=IwAR2qIx7zUI7eunGRkRIOh83OJ3A-jllgHMTRzoOXrquHIsNt6j-e2S1tWV4) 33위 - baby shark~ dururu~ duru~ (19.11)  
@@ -96,7 +101,8 @@ tags: []
 ## 관심
 
 * Problem Solving
-* Drink
+* Beer
+* Wine
 
 ---
 
