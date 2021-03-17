@@ -12,7 +12,7 @@ tags: [spring-boot, kotlin, java]
 
 우리 process의 자원만 의도한만큼 잡아먹는다면 아무 문제가 없지만, 만약 한 머신에서 여러 서버가 돌고 있다면?
 
-disk I/O는 머신 전체에 영향을 미치기 때문에 굉장히 신중해야 한다. 사실 그걸 떠나서 그냥 느리기도 하다.
+disk I/O는 머신 전체에 영향을 미치기 때문에 신중해야 한다. 사실 그걸 떠나서 그냥 느리기도 하다.
 
 기본적으로, JVM 기반의 언어(Java, Kotlin)에서 사용하는 File 또는 Resource 관련 class들은 in-memory data를 관리하는 게 아니다.
 
@@ -24,7 +24,7 @@ disk I/O는 머신 전체에 영향을 미치기 때문에 굉장히 신중해�
 
 `MultipartFile`을 수신하면, 서블릿은 이 파일을 disk의 temp directory에 임시로 '저장'한다.
 
-`MultipartFile`은 `Resource`를 member로 가지고 있고, `Resource`는 binary를 input stream을 통해 읽어 오는데, 서블릿은 binary를 disk에서 직접 읽는 구현체를 사용하는 것 같다. (그도 그럴 것이 서버 띄우는 머신이 어지간히 고사양 아닌 이상, 메모리에서 파일을 들고 있기는 좀 많이 부담스럽다.)
+`MultipartFile`은 `Resource`를 member로 가지고 있고, `Resource`는 binary를 input stream을 통해 읽어 오는데, 서블릿은 binary를 disk에서 직접 읽는 구현체를 사용하는 것 같다.
 
 다시 말해, 일단 파일을 수신하면 I/O가 무조건 발생한다.
 
@@ -44,7 +44,7 @@ val file = object : ByteArrayResource(byteArray) {
 }
 ```
 
-그런 경우에는 위와 같이 `ByteArrayResource`를 이용해서 in-memory로 관리할 수 있다...고 추측한다. (솔직히 이거 디스크에 쓰면 에바지 ㅋㅋ)
+그런 경우에는 위와 같이 `ByteArrayResource`를 이용해서 in-memory로 관리할 수 있다. (아마?)
 
 구현체를 본 적이 없어서 저게 실제로는 disk에 임시로 저장하고 읽어오는 건지 뭔지는 잘 모른다.
 

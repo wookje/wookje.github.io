@@ -14,8 +14,8 @@ tags: []
 * 권욱제
 * 선린인터넷고등학교 정보통신과 15학번
 * 숭실대학교 컴퓨터학부 18학번
-* [riiid](https://www.riiid.co/ko/main) AIOps 엔지니어 (20.07 ~ 현재)
-* [마인즈랩](https://mindslab.ai/kr) 백엔드 개발자 (19.12 ~ 20.07)
+* [riiid](https://www.riiid.co/ko/main) Software Engineer (20.07 ~ 현재)
+* [마인즈랩](https://mindslab.ai/kr) Software Engineer (19.12 ~ 20.07)
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
 * [Code Forces](http://codeforces.com/profile/wo_okje)
@@ -24,8 +24,14 @@ tags: []
 
 ## 대회 운영
 
+### 2020
+* [Good Bye, BOJ 2020!](https://www.acmicpc.net/contest/view/578) 출제 (20.12)
+* [제4회 천하제일 코딩대회 본선](https://www.acmicpc.net/category/detail/2377) 출제 (20.12)  
+* [제4회 천하제일 코딩대회 예선](https://www.acmicpc.net/category/detail/2376) 출제 (20.12)
 * [2020 선린 정보 알고리즘경시대회](https://www.acmicpc.net/category/detail/2294) 출제 (20.08)
 * [제1회 논산 코드 페스티별](https://www.acmicpc.net/contest/view/507) 개최, 출제 (20.04)  
+
+### 2019
 * [Good Bye, BOJ 2019!](https://www.acmicpc.net/contest/view/497) 출제 (19.12)  
 * [2019 선린 정보 알고리즘경시대회](https://www.acmicpc.net/contest/view/456) 출제 (19.08)  
 * [2019 숭고한 연합 Algorithm Camp Contest](https://www.acmicpc.net/contest/view/448) 출제 (19.08)  
@@ -33,8 +39,12 @@ tags: []
 * [제3회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/436) 출제 (19.06)
 * [2019 SCON](https://www.acmicpc.net/contest/view/416) 개최, 출제 (19.05)  
 * [2019 SCCC 벚꽃맞이 컨테스트](https://www.acmicpc.net/contest/view/402) 개최, 출제 (19.04)  
+
+### 2018
 * [제2회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/310) 출제 (18.07)  
 * [제2회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/303) 출제 (18.07)
+
+### 2017
 * [제1회 천하제일 코딩대회 본선](https://www.acmicpc.net/contest/view/242) 개최, 출제 (17.07)  
 * [제1회 천하제일 코딩대회 예선](https://www.acmicpc.net/contest/view/241) 개최, 출제 (17.07)
 * [2017 선린 봄맞이 교내대회](https://www.acmicpc.net/contest/view/221) 개최, 출제 (17.04)
@@ -85,6 +95,10 @@ tags: []
 
 ## 강의
 
+* 선린인터넷고등학교 정보올림피아드반 강사 (21)
+.
+* 선린인터넷고등학교 정보올림피아드반 강사 (20)
+.
 * 선린인터넷고등학교 정보올림피아드반 알고리즘 강사 (19.07)  
 * 선린인터넷고등학교 소프트웨어과 알고리즘 강사 (19.05 - 19.06)  
 .
@@ -100,9 +114,10 @@ tags: []
 
 ## 관심
 
-* Problem Solving
 * Beer
 * Wine
+* Coffee
+* League of Legend
 
 ---
 
