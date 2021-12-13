@@ -20,7 +20,7 @@ lateinit var resource: Resource
 
 `getResources()`로 파일을 가져오면 ide상의 로컬 개발 환경에서 잘 돌아갈 수 있지만, jar를 뽑아서 실행할 때 uri가 바뀌기 때문에 아마 화가 나게 될 수도 있습니다.  
 
-`getResources()`로 해도 잘 되는 경우도 있는데, 제가 했던 프로젝트의 경우는 잘 안 되었습니다. 코틀린이라 그런가?  
+`getResources()`로 해도 잘 되는 경우도 있는데, 제가 했던 프로젝트의 경우는 잘 안 되었습니다.
 
 반면 위에서는 spring annotation을 사용했기 때문에 스프링이 path를 관리해 줍니다.  
 
@@ -40,7 +40,7 @@ lateinit var resource: Resource
 val file = File(resource.uri)
 ```
 
-애써 Spring 컨테이너로 가져온 리소스를, 굳이 다시 uri를 찾아서 가져오는 멍청한 짓을 할 필요는 없죠... (본인이 했었음) 저러면 `getResources()`랑 똑같아져서 파일 못 가져옵니다 (...)
+애써 Spring 컨테이너로 가져온 리소스를, 굳이 다시 uri를 찾아서 가져올 필요는 없습니다. 저러면 `getResources()`랑 똑같아져서 파일을 못 가져옵니다.
 
 ## @Value를 포함하는 클래스는 Bean에 등록되어 있어야 합니다
 

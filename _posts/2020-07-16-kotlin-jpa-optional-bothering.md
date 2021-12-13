@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: 'Kotlin에서 JPA 기본 repository interface 사용시 짜증나는 점'  
+title: 'Kotlin에서 JPA 기본 repository interface 사용시 불편한 점'  
 author: wookje.kwon  
 comments: true  
 date: 2020-07-16 16:38  
@@ -8,7 +8,7 @@ tags: [jpa, kotlin]
   
 ---  
 
-JPA가 자랑하는 장점 중 하나인 respository interface를 **코틀린에서** 사용하면 조금 짜증나는 상황이 발생한다.
+JPA의 respository interface를 **코틀린에서** 사용하면 조금 불편한 상황이 발생한다.
 
 ```kotlin
 interface SometingRepository : CrudRepository<Something, Long> {
@@ -70,4 +70,4 @@ try {
 
 그래서 `(2)`처럼 사용했다.  
 
-(근데 포스팅 쓰면서 알았는데 `findAllById`는 `(Mutable)Iterable<Something!>`을 뱉는다. ???)
+(근데 포스팅 쓰면서 알았는데 `findAllById`는 `(Mutable)Iterable<Something!>`을 뱉는다.)
