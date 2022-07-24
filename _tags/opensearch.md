@@ -1,0 +1,4 @@
+---
+name: opensearch
+title: 'OpenSearch'
+---
