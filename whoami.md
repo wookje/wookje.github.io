@@ -112,15 +112,7 @@ tags: []
 
 ---
 
-## 관심
-
-* Beer
-* Wine
-* Coffee
-* League of Legend
-
----
-
 ## 연락
 
 * wookje.happy@gmail.com
+* [wo_okje](https://www.instagram.com/wo_okje/)
