@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: '추상과 철학'  
+title: '목표의 추상화'  
 author: wookje.kwon  
 comments: true  
 date: 2022-07-24 22:30  
