@@ -3,7 +3,7 @@ layout: post
 title: '내가 일하면서 배운 것'  
 author: wookje.kwon  
 comments: true  
-date: 2023-02-12 13:29  
+date: 2000-02-12 13:29  
 tags: [chat, work]  
   
 ---  
