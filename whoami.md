@@ -54,6 +54,9 @@ tags: []
 
 ## 대회 참가
 
+### 2022
+* [2012 ACM-ICPC Seoul Reginal](http://icpckorea.org/archives/2748) 45위 - graduate_sikyojo (22.11)  
+
 ### 2020
 * [UCPC 2020 본선](https://www.acmicpc.net/contest/view/524) 30위 - 애기욱제쟝 공익 아니에얌-ㅅ-! 훈련소 갖다왔서얌!! (20.08)
 * [UCPC 2020 예선](https://www.acmicpc.net/contest/view/521) 34위 - 애기욱제쟝 공익 아니에얌-ㅅ-! 훈련소 갖다왔서얌!! (20.07)
