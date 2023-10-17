@@ -14,7 +14,8 @@ tags: []
 * 권욱제
 * 선린인터넷고등학교 정보통신과 15학번
 * 숭실대학교 컴퓨터학부 18학번
-* [riiid](https://www.riiid.co/ko/main) Software Engineer (20.07 ~ 현재)
+* [Presto Labs](https://www.prestolabs.io) Software Engineer (23.09 ~ 현재)
+* [riiid](https://www.riiid.co/ko/main) Software Engineer (20.07 ~ 23.08)
 * [마인즈랩](https://mindslab.ai/kr) Software Engineer (19.12 ~ 20.07)
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
