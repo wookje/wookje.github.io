@@ -11,15 +11,16 @@ tags: []
 
 ## 정보
 
-* 권욱제
-* 선린인터넷고등학교 정보통신과 15학번
-* 숭실대학교 컴퓨터학부 18학번
-* [Presto Labs](https://www.prestolabs.io) Software Engineer (23.09 ~ 현재)
-* [riiid](https://www.riiid.co/ko/main) Software Engineer (20.07 ~ 23.08)
-* [마인즈랩](https://mindslab.ai/kr) Software Engineer (19.12 ~ 20.07)
+* Wookje Kwon (권욱제)
+* [Doeat](https://doeat.io/) Software Engineer (24.03 ~ 현재)
+* [Flipster](https://flipster.io/) Software Engineer (23.09 ~ 24.02)
+* [Riiid](https://www.riiid.co/ko/main) Software Engineer (20.07 ~ 23.08)
+* [Mindslab](https://mindslab.ai/kr) Software Engineer (19.12 ~ 20.07)
 * [github](https://github.com/wookje)
 * [BOJ](https://www.acmicpc.net/user/wookje)
 * [Code Forces](http://codeforces.com/profile/wo_okje)
+* 선린인터넷고등학교 정보통신과 15학번
+* 숭실대학교 컴퓨터학부 18학번
 
 ---
 
