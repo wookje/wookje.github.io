@@ -12,7 +12,8 @@ tags: []
 ## 정보
 
 * Wookje Kwon (권욱제)
-* [Doeat](https://doeat.io/) Software Engineer (24.03 ~ 현재)
+* [Google](https://about.google/) Software Engineer (24.11 ~)
+* [Doeat](https://doeat.io/) Software Engineer (24.03 ~ 24.09)
 * [Flipster](https://flipster.io/) Software Engineer (23.09 ~ 24.02)
 * [Riiid](https://www.riiid.co/ko/main) Software Engineer (20.07 ~ 23.08)
 * [Mindslab](https://mindslab.ai/kr) Software Engineer (19.12 ~ 20.07)
