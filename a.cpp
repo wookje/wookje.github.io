@@ -7,117 +7,50 @@
 #include <queue>
 #include <cstring>
 #include <cstdlib>
+#include <string>
+#include <cassert>
+#include <set>
+#include <unordered_set>
 using namespace std;
+typedef long long ll;
 
-int dx[] = { 0,1,0,-1 };
-int dy[] = { 1,0,-1,0 };
+int n, c;
+ll a[200002];
 
-int n;
-vector<int> l, r;
-char dir[5555];
-int res[5555];
-int st = -1;
-int ed = -1;
-
-int calc(char c) {
-    int temp = 0;
-    if (c == 'R') {
-        int lmax = -1;
-        for (int i = ed; i >= st; i--) {
-            if (dir[i] == 'L') {
-                lmax = max(lmax, res[i]);
-            }
-            else {
-                if (res[i] > lmax) {
-                    temp++;
-                }
-            }
+bool feasible(int dst) {
+    int prv = 1, cnt = 1;
+    for (int i = 1; i <= n; i++) {
+        if (a[i]-a[prv] >= dst) {
+            cnt++;
+            prv =  i;
         }
     }
-    else {
-        int rmax = -1;
-        for (int i = st; i <= ed; i++) {
-            if (dir[i] == 'R') {
-                rmax = max(rmax, res[i]);
-            }
-            else {
-                if (res[i] > rmax) {
-                    temp++;
-                }
-            }
-        }
-    }
-    return temp + (n - ed + st - 1);
+    return cnt >= c;
 }
 
 int main() {
-    cin.tie(0);
+    cin.tie(0); ios_base::sync_with_stdio(0);
 
-    cin >> n;
+    cin >> n >> c;
     for (int i = 1; i <= n; i++) {
-        int a;
-        char c;
-        cin >> a >> c;
-        if (c == 'L') l.push_back(a), dir[i] = 'L';
-        else r.push_back(a), dir[i] = 'R';
+        cin >> a[i];
     }
+    sort(a+1, a+n+1);
 
-    if (r.size() == 0 || l.size() == 0) {
-        cout << n << "\n";
-        return 0;
-    }
-
-    sort(l.begin(), l.end());
-    sort(r.begin(), r.end());
-
-    for (int i = 1; i <= n; i++) {
-        if (dir[i] == 'R') {
-            st = i;
-            break;
+    int lft = 1, rgt = a[n]-a[1];
+    int ans = -1;
+    while (lft <= rgt) {
+        int mid = (lft+rgt+1)/2;
+        if (feasible(mid)) {
+            ans = mid;
+            lft = mid+1;
         }
-    }
-    for (int i = n; i >= 1; i--) {
-        if (dir[i] == 'L') {
-            ed = i;
-            break;
+        else {
+            rgt = mid-1;
         }
     }
 
-    int lidx = 0;
-    int ridx = r.size()-1;
-    for (int i = st; i <= ed; i++) {
-        if (dir[i] == 'R') {
-            res[i] = r[ridx--];
-        }
-    }
-    for (int i = ed; i >= st; i--) {
-        if (dir[i] == 'L') {
-            res[i] = l[lidx++];
-        }
-    }
-
-    int dap = calc('R');
-
-    memset(res, 0, sizeof(res));
-
-    lidx = l.size()-1;
-    ridx = 0;
-    for (int i = st; i <= ed; i++) {
-        if (dir[i] == 'R') {
-            res[i] = r[ridx++];
-        }
-    }
-    for (int i = ed; i >= st; i--) {
-        if (dir[i] == 'L') {
-            res[i] = l[lidx--];
-        }
-    }
-
-    int dap2 = calc('L');
-    
-    dap = max(dap, dap2);
-
-    cout << max(0, dap) << "\n";
+    cout << ans << "\n";
 
     return 0;
 }
