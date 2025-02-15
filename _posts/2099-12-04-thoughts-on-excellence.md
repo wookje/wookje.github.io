@@ -3,7 +3,7 @@ layout: post
 title: '탁월함에 대한 생각'  
 author: wookje.kwon  
 comments: true  
-date: 2024-12-04 20:24  
+date: 2099-12-04 20:24  
 tags: [chat]  
   
 ---  
