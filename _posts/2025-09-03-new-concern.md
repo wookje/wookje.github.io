@@ -34,4 +34,4 @@ tags: [chat]
 
 그런 거라면 나는 스물몇 살쯤부터 이미 선구자였다고 할 수 있겠다. 생각보다 쉽게 점 하나를 찍었다.  
 
-Stepping, Largely.  
+_Stepping, Largely._  
