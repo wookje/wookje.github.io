@@ -1,6 +1,6 @@
 ---  
 layout: post  
-title: '창세(創世)'  
+title: '창세'  
 author: wookje.kwon  
 comments: true  
 date: 2026-05-08 23:56  
