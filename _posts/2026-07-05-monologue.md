@@ -1,9 +1,9 @@
 ---  
 layout: post  
-title: '답답해서 죽어버리고 싶다'  
+title: '독백'  
 author: wookje.kwon  
 comments: true  
-date: 2026-07-04 23:38  
+date: 2026-07-05 00:37  
 tags: [chat]  
   
 ---  
