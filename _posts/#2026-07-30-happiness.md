@@ -1,3 +1,9 @@
+layout: post  
+title: '행복'  
+author: wookje.kwon  
+comments: true  
+date: 2026-07-30 23:15  
+tags: [chat]  
   
 
 행복은 **욕망을 여닫는 동작**이다.  
@@ -10,9 +16,3 @@
 행복은 상대적인 개념으로, 불행이 있어야 행복이 있을 수 있다.  
 모두가 행복을 추구하는 이유는, 누구도 영원한 행복에 도달할 수 없기 때문이다.  
 
-~ layout: post  
-~ title: '행복'  
-author: wookje.kwon  
-comments: true  
-date: 2026-07-30 23:15  
-tags: [chat]  
