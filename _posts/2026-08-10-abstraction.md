@@ -29,18 +29,18 @@ We are about to study the idea of a computational process. Computational process
 > 여기까지, 혼신의 힘을 다해 적은 도입부가 매우 인상적이다.  
 
 ... A computational process, in a correctly working computer, executes
-programs precisely and accurately. ... novice programmers must learn to understand and to anticipate the consequences of their conjuring. ...
+programs precisely and accurately. ... novice **programmers must learn to understand and to anticipate the consequences of their conjuring**. ...
 
 ... Real-world programming, however, requires care, expertise, and wisdom. ...
 
-Master software engineers have the ability to organize programs so that they can be reasonably sure that the resulting processes will **perform the tasks intended**.
-- **They can visualize** the behavior of their systems in advance.
-- **They know how to structure** programs so that unanticipated problems do not lead to catastrophic consequences.
-- **They can debug** their programs when problems do arise.  
+Master **software engineers have the ability to** organize programs so that they can be reasonably sure that the resulting processes will **perform the tasks intended**.
+- They can **visualize** the behavior of their systems in advance.
+- They know how to **structure** programs so that unanticipated problems do not lead to catastrophic consequences.
+- They can **debug** their programs when problems do arise.  
 
 Well-designed computational systems, like well-designed automobiles or nuclear reactors, are designed in a **modular manner**, so that the parts can be constructed, replaced, and debugged separately.  
 
-> 구구절절 맞는 말. 읽으면 120% 공감할 수 있지만, 내가 쓴다면 이 수준으로 정밀하고 자신감 있게 설명할 자신이 없다. 저명한 시스템 박사와 유사 학사의 격의 차이를 여실히 느꼈다.  
+> 구구절절 맞는 말. 읽으면 120% 공감할 수 있지만, 내가 쓴다면 이 수준으로 정밀하고 자신감 있게 설명할 자신이 없다. 저명한 시스템 박사와 날라리 학사의 격의 차이를 여실히 느꼈다.  
 
 ## 1.1 The Elements of Programming
 
@@ -52,9 +52,9 @@ from simpler ones
 - **Means of abstraction**, by which compound elements can be named
 and manipulated as units.  
 
-> 여기서 1과, 2와, 3 이상인 것의 차이를 느낄 수 있다. 도입부에서 제시한 원자 단위, 복합 단위, 추상 단위가 곧바로 예시로 설명되었고 나에게 인상적이다. 일상 생활에서 예시가 하나 뿐임에도 추상화부터 하려고 하는 시도를 마주했을 때, 그러한 시도를 더욱 통찰력 있게 비난할 수 있게 되었다. 언어가 관념을 담는 프레임워크라는 말은 컴퓨팅의 바깥에서도 생각해볼만 하다.  
+> 1과, 2와, 3 이상인 것의 차이를 느낄 수 있다. 도입부에서 제시한 원자 단위, 복합 단위, 추상 단위가 예시를 들어 설명되었고 나에게 인상적이다. 일상 생활에서 예시가 하나 뿐임에도 추상화부터 하려고 하는 시도를 마주했을 때, 그러한 시도를 더욱 통찰력 있게 비난할 수 있게 되었다. 언어가 관념을 담는 프레임워크라는 말은 언어철학과도 맞닿아 있다.  
 
-In programming, we deal with two kinds of elements: procedures and data. (Later we will discover that they are really not so distinct.) Informally, **data is "stuff" that we want to manipulate**, and **procedures are descriptions of the rules** for manipulating the data. Thus, any powerful programming language should be able to describe primitive data and primitive procedures and should have methods for combining and abstracting procedures and data.  
+In programming, we deal with two kinds of elements: **procedures** and **data**. (Later we will discover that they are really not so distinct.) Informally, data is "stuff" that we want to manipulate, and procedures are descriptions of the rules for manipulating the data. Thus, any powerful programming language should be able to describe primitive data and primitive procedures and should have methods for combining and abstracting procedures and data.  
 
 > 프로그래밍은 두 가지 요소를 다룬다: 데이터, 데이터를 조작하는 규칙의 모음   
 
@@ -68,7 +68,7 @@ No ambiguity can arise, ...
 
 There is no limit (in principle) to the depth of such nesting and to the overall complexity ...  
 
-> 이 소절을 읽고 떠오른 생각: 구글 클라우드에 사진을 드래그앤드랍 했을 때 일어나는 기저의 모든 사건에는 모호함이 없으며, 컴퓨팅에 관해 100년간 쌓아올린 인류의 첨예한 지성은 '딸-깍'으로 추상화 된다.  
+> 예를 들어, 구글 클라우드에 사진을 드래그앤드랍 했을 때 일어나는 기저의 모든 사건에는 모호함이 없으며, 컴퓨팅에 관해 100년간 쌓아올린 인류의 첨예한 지성은 '딸-깍'으로 추상화 된다.  
 
 ### 1.1.2 Naming and the Environment
 
@@ -88,5 +88,19 @@ Even this simple rule illustrates some important points about processes in gener
 
 ...  
 
-> 재귀의 아름다움의 일부 대한 흔한 설명  
+> 재귀의 아름다움의 일부에 대한 흔한 설명  
+
+_2026-08-15 22:22_
+
+### 1.1.4 Compound Procedures
+
+We have identified in Lisp some of the elements that must appear in any powerful programming language:
+- Numbers and arithmetic operations are primitive data and procedures.
+- Nesting of combinations provides a means of combining operations.
+- Definitions that associate names with values provide a limited means of abstraction.
+
+...
+
+> 이름과 value를 연결 짓는 것은 제한된(부분적인?) 추상화 수단을 제공한다. 나에게 value는 '값'으로도 읽히고 '가치'로도 읽힌다. 근데 숫자가 왜 프로시저인 거지... 
+> 매우 유능한 친구들의 지성을 빌려 20분만에 이해했다. PL적 사고를 하면 (PL이라는 이름으로 추상화된 맥락의 모음을 로딩한다는 뜻) 금방 이해할 수 있는데 너무 먼 발치에서 생각했다. 근데 데이터랑 프로시저가 같다고 주장하는 건 뭔가 현실에 굴복한 느낌이라 뭔가 따지고 싶다.  
 
