@@ -56,7 +56,7 @@ and manipulated as units.
 
 In programming, we deal with two kinds of elements: **procedures** and **data**. (Later we will discover that they are really not so distinct.) Informally, data is "stuff" that we want to manipulate, and procedures are descriptions of the rules for manipulating the data. Thus, any powerful programming language should be able to describe primitive data and primitive procedures and should have methods for combining and abstracting procedures and data.  
 
-> 프로그래밍은 두 가지 요소를 다룬다: 데이터, 데이터를 조작하는 규칙의 모음   
+> 프로그래밍은 두 가지 요소를 다룬다: 데이터, 데이터를 조작하는 규칙의 모음  
 
 _2026-08-15 14:24_
 
@@ -69,6 +69,8 @@ No ambiguity can arise, ...
 There is no limit (in principle) to the depth of such nesting and to the overall complexity ...  
 
 > 예를 들어, 구글 클라우드에 사진을 드래그앤드랍 했을 때 일어나는 기저의 모든 사건에는 모호함이 없으며, 컴퓨팅에 관해 100년간 쌓아올린 인류의 첨예한 지성은 '딸-깍'으로 추상화 된다.  
+
+> 까지가 이상적인 세계이고 현실은 undefined behavior로 가득가득이다!  
 
 ### 1.1.2 Naming and the Environment
 
@@ -101,6 +103,7 @@ We have identified in Lisp some of the elements that must appear in any powerful
 
 ...
 
-> 이름과 value를 연결 짓는 것은 제한된(부분적인?) 추상화 수단을 제공한다. 나에게 value는 '값'으로도 읽히고 '가치'로도 읽힌다. 근데 숫자가 왜 프로시저인 거지... 
+> 이름과 value를 연결 짓는 것은 제한된(부분적인?) 추상화 수단을 제공한다. 나에게 value는 '값'으로도 읽히고 '가치'로도 읽힌다. 근데 숫자가 왜 프로시저인 거지...  
+
 > 매우 유능한 친구들의 지성을 빌려 20분만에 이해했다. PL적 사고를 하면 (PL이라는 이름으로 추상화된 맥락의 모음을 로딩한다는 뜻) 금방 이해할 수 있는데 너무 먼 발치에서 생각했다. 근데 데이터랑 프로시저가 같다고 주장하는 건 뭔가 현실에 굴복한 느낌이라 뭔가 따지고 싶다.  
 
